@@ -1,0 +1,23 @@
+@import "../../scss/variables.scss";
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 50, 0.6)),
+    url("/images/hp-hero.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+
+  .title {
+    color: #ddd;
+    font-size: 5em;
+  }
+  .subtitle {
+    color: #ddd;
+    font-size: 2em;
+  }
+
+  .hero-head,
+  .hero-foot {
+    display: none;
+  }
+}
