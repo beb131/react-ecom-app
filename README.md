@@ -6,6 +6,16 @@
 - SCSS
 - Bulma
 
-<strong>Things I learned:</strong>
+<strong>Things I Learned:</strong>
 
 <strong>To Do:</strong>
+
+- Setup Redux or Hooks
+- Setup Routing
+- Create and Connect Backend and DB
+- Create REST API
+- Create single product page
+- Setup Search Feature
+- Create Tests
+- Implement Proptypes
+- Typescript?
