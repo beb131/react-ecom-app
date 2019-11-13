@@ -1,16 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import "./index.scss";
+import CartItems from "../CartItems/index";
 
-export default class Cart extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-  render() {
-    return (
-      <>
-        <h1>{this.constructor.name}</h1>
-      </>
-    );
-  }
+export default function Cart(props) {
+  return (
+    <>
+      <CartItems />
+    </>
+  );
 }

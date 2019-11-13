@@ -7,5 +7,9 @@
   margin: 1%;
   .content {
     text-align: left;
+    .button {
+      float: right;
+      margin: 20px 10px;
+    }
   }
 }
