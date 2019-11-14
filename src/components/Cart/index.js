@@ -9,3 +9,10 @@ export default function Cart(props) {
     </>
   );
 }
+
+// Cart
+//// Items
+//// Quantity Adjustment
+//// Delete Item
+//// Price Calc
+//// Checkout Button

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-//import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "./index.scss";
 
@@ -11,13 +11,12 @@ export default class Hero extends Component {
   render() {
     return (
       <>
-        {/* <Router> */}
         <section className="hero is-fullheight">
           <div className="hero-head">
             <header className="navbar">
               <div className="container">
                 <div className="navbar-brand">
-                  <a href="#" className="navbar-item"></a>
+                  <Link to="#" className="navbar-item"></Link>
                   <span
                     className="navbar-burger burger"
                     data-target="navbarMenuHeroC"
@@ -29,26 +28,22 @@ export default class Hero extends Component {
                 </div>
                 <div id="navbarMenuHeroC" className="navbar-menu">
                   <div className="navbar-end">
-                    <a href="#" className="navbar-item is-active">
+                    <Link to="#" className="navbar-item is-active">
                       Home
-                    </a>
-                    <a href="#" className="navbar-item">
+                    </Link>
+                    <Link to="#" className="navbar-item">
                       Examples
-                    </a>
-                    <a href="#" className="navbar-item">
+                    </Link>
+                    <Link to="#" className="navbar-item">
                       Documentation
-                    </a>
+                    </Link>
                     <span className="navbar-item">
-                      <a
-                        href="#"
-                        href="#"
-                        className="button is-success is-inverted"
-                      >
+                      <Link to="#" className="button is-success is-inverted">
                         <span className="icon">
                           <i className="fab fa-github"></i>
                         </span>
                         <span>Download</span>
-                      </a>
+                      </Link>
                     </span>
                   </div>
                 </div>
@@ -68,29 +63,28 @@ export default class Hero extends Component {
               <div className="container">
                 <ul>
                   <li className="is-active">
-                    <a href="#">Overview</a>
+                    <Link to="#">Overview</Link>
                   </li>
                   <li>
-                    <a href="#">Modifiers</a>
+                    <Link to="#">Modifiers</Link>
                   </li>
                   <li>
-                    <a href="#">Grid</a>
+                    <Link to="#">Grid</Link>
                   </li>
                   <li>
-                    <a href="#">Elements</a>
+                    <Link to="#">Elements</Link>
                   </li>
                   <li>
-                    <a href="#">Components</a>
+                    <Link to="#">Components</Link>
                   </li>
                   <li>
-                    <a href="#">Layout</a>
+                    <Link to="#">Layout</Link>
                   </li>
                 </ul>
               </div>
             </nav>
           </div>
         </section>
-        {/* </Router> */}
       </>
     );
   }
