@@ -24,8 +24,8 @@ export const ProductContext = React.createContext(initialProducts);
 export const CartContext = React.createContext([0, () => {}]);
 
 function App() {
-  // const [cartState, setCartState] = useState([{}]);
   const [cartProducts, dispatchCart] = useReducer(cartReducer, initialProducts);
+  const [cartState, setCartState] = useState([cartProducts]);
 
   const handleAddToCart = product => {
     dispatchCart({ type: "ADD_TO_CART", id: product.id });
@@ -45,15 +45,15 @@ function App() {
   return (
     <div className="App">
       <Hero />
-      <ProductContext.Provider
-        value={
-          initialProducts
-          // handleAddToCart,
-          // handleRemoveFromCart,
-          // handleClearCart
-        }
-      >
-        <CartContext.Provider value={handleAddToCart}>
+      <ProductContext.Provider value={initialProducts}>
+        <CartContext.Provider
+          value={{
+            cartProducts,
+            handleAddToCart,
+            handleRemoveFromCart,
+            handleClearCart
+          }}
+        >
           <Switch>
             <Route exact path="/" component={Shop} />
             <Route exact path="/contact/" component={Contact} />

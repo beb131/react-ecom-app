@@ -24,11 +24,7 @@ export default function ProductCard(props) {
           <div className="content">
             <div className="excerpt">{props.excerpt}</div>
             <div className="price"></div>
-            <button
-              className="button is-link"
-              onClick={props.handleAddToCart}
-              data-id={props.id}
-            >
+            <button className="button is-link" onClick={props.handleAddToCart}>
               Add To Cart - ${Number(props.price).toFixed(2)}
             </button>
           </div>
