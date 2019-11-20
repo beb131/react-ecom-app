@@ -1,4 +1,4 @@
-import React, { useState, useReducer } from "react";
+import React, { useState, useReducer, useEffect } from "react";
 import "./App.css";
 import "./scss/styles.scss";
 
@@ -10,8 +10,7 @@ import Shop from "./components/Shop/index";
 import Footer from "./components/Footer/index";
 import { Route, Switch } from "react-router-dom";
 import SingleProduct from "./components/SingleProduct";
-// import Home from "./components/Home/index";
-// import Cart from "./components/Cart/index";
+import Cart from "./components/Cart/index";
 // import CartItems from "./components/CartItems/index";
 
 // Reducers
@@ -19,16 +18,38 @@ import cartReducer from "./reducers/cartReducer";
 
 // Test Products
 import initialProducts from "./context/initialProducts";
+import initialCart from "./context/initialCart";
 
 export const ProductContext = React.createContext(initialProducts);
-export const CartContext = React.createContext([0, () => {}]);
+export const CartContext = React.createContext(initialCart);
 
 function App() {
-  const [cartProducts, dispatchCart] = useReducer(cartReducer, initialProducts);
-  const [cartState, setCartState] = useState([cartProducts]);
+  const [cartState, setCartState] = useState(initialCart);
+  const [cartProducts, dispatchCart] = useReducer(cartReducer, cartState);
+
+  // useEffect(async () => {
+  //   const result = await axios(
+  //     "https://hn.algolia.com/api/v1/search?query=redux"
+  //   );
+  //   setData(result.data);
+  // });
 
   const handleAddToCart = product => {
-    dispatchCart({ type: "ADD_TO_CART", id: product.id });
+    console.log("Dispatched Product:", product);
+    setCartState(
+      dispatchCart({
+        type: "ADD_TO_CART",
+        product: product
+        // product: {
+        //   id: 2,
+        //   name: "Product Test",
+        //   img: "https://bulma.io/images/placeholders/1280x960.png",
+        //   price: "20",
+        //   excerpt: "Lorem ipsum dolor sit amet...",
+        //   description: "Lorem ipsum dolor sit amet"
+        // }
+      })
+    );
     console.log("Dispatched ATC");
   };
 
@@ -37,7 +58,7 @@ function App() {
     console.log("Dispatched RFC");
   };
 
-  const handleClearCart = product => {
+  const handleClearCart = () => {
     dispatchCart({ type: "CLEAR_CART" });
     console.log("Dispatched CC");
   };
@@ -56,14 +77,15 @@ function App() {
         >
           <Switch>
             <Route exact path="/" component={Shop} />
-            <Route exact path="/contact/" component={Contact} />
+            <Route exact path="/products/" component={Shop} />
+            <Route exact path="/shop/" component={Shop} />
+            <Route exact path="/cart/" component={Cart} />
             <Route exact path="/checkout/" component={Checkout} />
+            <Route exact path="/contact/" component={Contact} />
             <Route
               path="/products/:id"
               render={product => <SingleProduct {...product} />}
             />
-            <Route path="/products/" component={Shop} />
-            <Route path="/shop/" component={Shop} />
             <Route>{"404"}</Route>
           </Switch>
         </CartContext.Provider>

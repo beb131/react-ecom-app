@@ -2,12 +2,12 @@ const cartReducer = (cartProducts, action) => {
   switch (action.type) {
     case "ADD_TO_CART":
       console.log("Reducer");
-      console.log(action);
-      return [...cartProducts, action.id];
+      console.log("Action.product:", action);
+      return [...cartProducts, action.product];
     case "REMOVE_FROM_CART":
-      return cartProducts.filter(item => item.id !== action.id);
+      return cartProducts.filter(item => item.id !== action.product.id);
     case "CLEAR_CART":
-      return [{}];
+      return [];
     default:
       throw new Error("Cart reducer error");
   }

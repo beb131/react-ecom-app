@@ -1,0 +1,254 @@
+[
+  {
+    "CategoryID": "AnglesLinenCollection",
+    "CategoryName": "Angles Linen Collection",
+    "Descr": "<headline>Structural design at your fingertips.</headline><details>An exclusive design by Todd-Avery Lenahan, this linen collection features an intertwining planes design inspired by Cubist art. This bold geometric pattern will bring energy and elegance to your space.</details>",
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-angles-duvet-cover-shams-set-jw-136-01-wh-set_lrg.jpg",
+    "CategoryLevel": 2,
+    "User1": "angles-linen-collection",
+    "sortIndex": 6
+  },
+  {
+    "CategoryID": "AnglesLinenCollectionLink",
+    "CategoryName": "Angles Linen Collection",
+    "Descr": null,
+    "Image": null,
+    "CategoryLevel": 1,
+    "User1": "angles-linen-collection",
+    "sortIndex": 5
+  },
+  {
+    "CategoryID": "Bath",
+    "CategoryName": "Bath",
+    "Descr": "<details>Enhance your well-being with the JW Marriott bath collection. Curated with robes, towels, and Aromatherapy Associates bath & body, transform your daily routine with inspiration from our world-renowned SPA by JW experience.</details>",
+    "Image": null,
+    "CategoryLevel": 0,
+    "User1": "bath",
+    "sortIndex": 5
+  },
+  {
+    "CategoryID": "BathBody",
+    "CategoryName": "Bath & Body",
+    "Descr": "<headline>Pamper yourself with these essentials.</headline><details>Inspired by our world-renowned spa experiences, the JW Marriott bath and body collection features guest-favorites that refresh and uplift your senses. Nurture yourself from head to toe with our aromatic ylang ylang and lavender selection.</details>",
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-bathbody-category_lrg.jpg",
+    "CategoryLevel": 1,
+    "User1": "bath-body",
+    "sortIndex": 1
+  },
+  {
+    "CategoryID": "Bed",
+    "CategoryName": "Bed",
+    "Descr": "<details>Capture the serenity of JW Marriott with our hotel mattress and luxurious bedding sets. Designed to turn your bedroom into a sanctuary, the JW Marriot Bed delivers the sleep of your dreams.</details>",
+    "Image": null,
+    "CategoryLevel": 0,
+    "User1": "bed",
+    "sortIndex": 1
+  },
+  {
+    "CategoryID": "Bedding",
+    "CategoryName": "Bedding",
+    "Descr": "<details>Elevate sleep to its fullest potential and explore the JW Marriott bedding collection. Including fine linens that give your bed a tailored look and tranquil feel, bring home our pillows, duvets, mattress toppers and more for at-home hotel bliss.</details>",
+    "Image": null,
+    "CategoryLevel": 0,
+    "User1": "bedding",
+    "sortIndex": 4
+  },
+  {
+    "CategoryID": "BeddingSets",
+    "CategoryName": "Bedding Sets",
+    "Descr": "<headline>All the linens you need for sublime sleep.</headline><details>Discover the exclusive assortment of our designer bedding sets. Exquisitely crafted, each set features linens in modern patterns that capture the JW Marriott standard for style and artistry. Add in our bedding essentials, and you have the ultimate JW bedding ensembles to choose from.</details>",
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-geo-bedding-set-jw-101-be-geo_lrg.jpg",
+    "CategoryLevel": 1,
+    "User1": "bedding-sets",
+    "sortIndex": 1
+  },
+  {
+    "CategoryID": "BlanketsComforters",
+    "CategoryName": "Blankets & Comforters",
+    "Descr": "<headline>Bundle up under divine comfort every night.</headline><details>Build your ideal bed layer by layer. Whether you're looking for something light or warm, JW Marriott blankets, comforters and throws are the perfect final touch for creating luxurious sleep.</details>",
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-down-comforter-jw-112_lrg.jpg",
+    "CategoryLevel": 1,
+    "User1": "blankets-comforters",
+    "sortIndex": 3
+  },
+  {
+    "CategoryID": "culture",
+    "CategoryName": "Culture",
+    "Descr": null,
+    "Image": null,
+    "CategoryLevel": 0,
+    "User1": "product.aspx?jw-barre-socks",
+    "sortIndex": 7
+  },
+  {
+    "CategoryID": "EmbroideredLinenCollection",
+    "CategoryName": "Embroidered Linen Collection",
+    "Descr": "<headline>Distinct detail for you to enjoy every night.</headline>\r\n<details>Bring a touch of Italy home with this exclusive JW Marriott linen collection. The sheets feature three embroidered rows to add a hint of luxury to any bed ensemble.</details>",
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-duvet-cover-jw-135-jw_lrg.jpg",
+    "CategoryLevel": 2,
+    "User1": "embroidered-linen-collection",
+    "sortIndex": 5
+  },
+  {
+    "CategoryID": "EmbroideredLinenCollectionLink",
+    "CategoryName": "Embroidered Linen Collection",
+    "Descr": null,
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-duvet-cover-jw-135-jw_lrg.jpg",
+    "CategoryLevel": 1,
+    "User1": "embroidered-linen-collection",
+    "sortIndex": 4
+  },
+  {
+    "CategoryID": "Fragrance",
+    "CategoryName": "Fragrance",
+    "Descr": "<details>Revive your senses with the JW Marriott home fragrance collection featuring candles, reed diffusers and room scent diffusers in our signature Subtle Sophistication and SPA by JW scents. Create a warm, inviting atmosphere with our luxurious fragrances.</details>",
+    "Image": "mages/products/v2/lrg/curatedbyjw-subtle-sophistication-room-diffuser-jw-610-ss_lrg.jpg",
+    "CategoryLevel": 0,
+    "User1": "fragrance",
+    "sortIndex": 6
+  },
+  {
+    "CategoryID": "GeoLinenCollection",
+    "CategoryName": "Geo Linen Collection",
+    "Descr": "<headline>Add a modern touch to your bedscape.</headline><details>Transform the experience of your bedroom with our Geo Linen collection. Designed exclusively for JW Marriott by Todd-Avery Lenahan, the linens feature a modern pattern of concentric circles.</details>",
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-geo-duvet-cover-jw-136-wh-g_lrg.jpg",
+    "CategoryLevel": 2,
+    "User1": "geo-linen-collection",
+    "sortIndex": 3
+  },
+  {
+    "CategoryID": "GeoLinenCollectionLink",
+    "CategoryName": "Geo Linen Collection",
+    "Descr": null,
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-geo-duvet-cover-jw-136-wh-g_lrg.jpg",
+    "CategoryLevel": 1,
+    "User1": "geo-linen-collection",
+    "sortIndex": 2
+  },
+  {
+    "CategoryID": "HotelSheets",
+    "CategoryName": "Hotel Sheets",
+    "Descr": "<headline>Bring the JW experience home with lush linens.</headline><details>JW Marriott brings you the finest hotel linens, so you can create your own escape at home. Browse our luxurious collection of hotel sheets for sublime sleep.</details>",
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-sheet-set-jw-106-wh_lrg.jpg",
+    "CategoryLevel": 2,
+    "User1": "hotel-sheets",
+    "sortIndex": 1
+  },
+  {
+    "CategoryID": "HotelSheetsLink",
+    "CategoryName": "Hotel Sheets",
+    "Descr": null,
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-sheet-set-jw-106-wh_lrg.jpg",
+    "CategoryLevel": 1,
+    "User1": "hotel-sheets",
+    "sortIndex": 1
+  },
+  {
+    "CategoryID": "Linens",
+    "CategoryName": "Linens",
+    "Descr": "<headline>Peaceful slumber awaits on these smooth sheets.</headline><details>Surround yourself with breathtaking details that inspire awe from JW Marriott. Elevate sleep with JW Marriott hotel linens, a collection of patterned and solid bedding that effortlessly combine five-star comfort and style.</details>",
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-geo-duvet-cover-jw-136-wh-g_lrg.jpg",
+    "CategoryLevel": 1,
+    "User1": "linens",
+    "sortIndex": 5
+  },
+  {
+    "CategoryID": "LinensLink",
+    "CategoryName": "Linens",
+    "Descr": null,
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-geo-duvet-cover-jw-136-wh-g_lrg.jpg",
+    "CategoryLevel": 0,
+    "User1": "linens",
+    "sortIndex": 3
+  },
+  {
+    "CategoryID": "MattressToppers",
+    "CategoryName": "Mattress Toppers",
+    "Descr": "<headline>An extra layer of lush relaxation for your bed.</headline><details>Explore the JW Marriott collection of mattress toppers to enhance your sleep. Our selection, including featherbeds and featherbed protectors, are handpicked to maximize your comfort.</details>",
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-featherbed-jw-113_lrg.jpg",
+    "CategoryLevel": 1,
+    "User1": "mattress-toppers",
+    "sortIndex": 4
+  },
+  {
+    "CategoryID": "Pillows",
+    "CategoryName": "Pillows",
+    "Descr": "<headline>Rest your head on these cloud-like cushions.</headline><details>Crafted from the finest materials, our JW Marriott pillow collection features a variety of styles. From feather and down to down alternative, each pillow is designed to enrich your sleep. Mix, match, and find your ideal comfort for truly personal rest.</details>",
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-feather-down-pillow-jw-108_lrg.jpg",
+    "CategoryLevel": 1,
+    "User1": "pillows",
+    "sortIndex": 2
+  },
+  {
+    "CategoryID": "PillowsLink",
+    "CategoryName": "Pillows",
+    "Descr": null,
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-feather-down-pillow-jw-108_lrg.jpg",
+    "CategoryLevel": 0,
+    "User1": "pillows",
+    "sortIndex": 2
+  },
+  {
+    "CategoryID": "PiscesLinenCollection",
+    "CategoryName": "Pisces Linen Collection",
+    "Descr": "<headline>Under the seas dreams start here.</headline><details>Refresh your space with JW Marriott Pisces linens and sheets. Artfully designed by Todd-Avery Lenahan, the collection introduces subtle, soothing patterns to your space.</details>",
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-pisces-pillowcases-jw-105-wh-p_lrg.jpg",
+    "CategoryLevel": 2,
+    "User1": "pisces-linen-collection",
+    "sortIndex": 4
+  },
+  {
+    "CategoryID": "PiscesLinenCollectionLink",
+    "CategoryName": "Pisces Linen Collection",
+    "Descr": null,
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-pisces-pillowcases-jw-105-wh-p_lrg.jpg",
+    "CategoryLevel": 1,
+    "User1": "pisces-linen-collection",
+    "sortIndex": 3
+  },
+  {
+    "CategoryID": "Robes",
+    "CategoryName": "Robes",
+    "Descr": "<headline>The perfect amount of after-bath style and comfort.</headline><details>Our signature hotel robes are the perfect reward, morning or night. Shop the JW Marriott robe collection to wrap yourself in comfort and relax luxuriously.</details>",
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-robes-category_lrg.jpg",
+    "CategoryLevel": 1,
+    "User1": "robes",
+    "sortIndex": 2
+  },
+  {
+    "CategoryID": "test",
+    "CategoryName": "TEST-123",
+    "Descr": "",
+    "Image": "",
+    "CategoryLevel": 1,
+    "User1": "productSub.aspx?test-123",
+    "sortIndex": 9
+  },
+  {
+    "CategoryID": "testp3",
+    "CategoryName": "TEST-123-P3",
+    "Descr": "",
+    "Image": "",
+    "CategoryLevel": 1,
+    "User1": "productSub.aspx?test-123-p3",
+    "sortIndex": 10
+  },
+  {
+    "CategoryID": "throws",
+    "CategoryName": "Throws",
+    "Descr": "<headline>Decorative accents to spark your imagination and transform your bed.</headline>\n<details>Immerse yourself in the warm comfort and inspired style of JW Marriott throw blankets. Curated to complement your bedroom style, our throws add a soft, cozy layer to your bed for the sweetest of dreams.</details>",
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-throw_lrg.jpg",
+    "CategoryLevel": 1,
+    "User1": "throws",
+    "sortIndex": 6
+  },
+  {
+    "CategoryID": "Towels",
+    "CategoryName": "Towels",
+    "Descr": "<headline>Hotel softness right at home.</headline><details>The JW Marriott towel collection offers our hotel-white bath towels in assorted sizes and our signature pool towel. Turn everyday moments into special experiences.</details>",
+    "Image": "https://www.curatedbyjw.com/images/products/v2/lrg/curatedbyjw-towel-set-jw-110-set_lrg.jpg",
+    "CategoryLevel": 1,
+    "User1": "towels",
+    "sortIndex": 3
+  }
+]

@@ -10,8 +10,8 @@
 
 <strong>To Do:</strong>
 
-- Setup Redux or Hooks
-- Setup Routing
+- <s>Setup Hooks</s>
+- <s>Setup Routing</s>
 - Create and Connect Backend and DB
 - Create REST API
 - Create single product page
