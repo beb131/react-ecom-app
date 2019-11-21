@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "./index.scss";
 import CartItems from "../CartItems/index";
 import { CartContext } from "../../App";
+import { Link } from "react-router-dom";
 
 export default function Cart() {
   const cart = useContext(CartContext);
@@ -11,21 +12,30 @@ export default function Cart() {
     cartList = cartProducts.map(item => (
       <CartItems
         key={item.id}
-        name={item.name}
-        img={item.img}
-        price={item.price}
-        excerpt={item.excerpt}
+        item={item}
         handleRemoveFromCart={cart.handleRemoveFromCart}
       />
     ));
   }
   return (
     <>
-      <section className="section" id="products">
-        {cartList.length ? cartList : "Your cart is empty"}
-        <button className="button is-danger" onClick={cart.handleClearCart}>
-          Empty Cart
-        </button>
+      <section className="section" id="cart">
+        <h1 className="title is-1">Cart</h1>
+        {cartList.length ? (
+          <div className="empty-cart-container">
+            <button
+              className="button is-danger btn-empty-cart"
+              onClick={cart.handleClearCart}
+            >
+              Empty Cart
+            </button>
+          </div>
+        ) : (
+          <h2 className="title is-2">
+            Your cart is empty, shop <Link to="/shop">here</Link>
+          </h2>
+        )}
+        {cartList}
       </section>
     </>
   );

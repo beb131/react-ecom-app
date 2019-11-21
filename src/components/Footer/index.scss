@@ -2,4 +2,8 @@
 
 .footer {
   clear: both;
+  background-color: #333 !important;
+  *:not(a) {
+    color: #ddd;
+  }
 }

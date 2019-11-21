@@ -16,7 +16,22 @@
     font-size: 2em;
   }
 
-  .hero-head,
+  .hero-head {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    a.navbar-item {
+      color: #fff;
+      &:hover,
+      &:active,
+      &:focus {
+        color: black !important;
+      }
+      transition: 0.5s;
+    }
+  }
+
   .hero-foot {
     display: none;
   }

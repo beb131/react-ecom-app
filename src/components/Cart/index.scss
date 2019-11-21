@@ -1,11 +1,5 @@
-// import starting from the src/ folder
 @import "../../scss/variables.scss";
 
-// can also be relative import
-// @import "./variables.scss";
-
-// we can use the $primaryColor variable now
-h1,
-h2 {
-  color: $primaryColor;
+.empty-cart-container {
+  margin: 0 auto;
 }

@@ -17,9 +17,7 @@ export default function Products(props) {
   ));
   return (
     <>
-      <section className="section" id="products">
-        {productList}
-      </section>
+      <div id="products">{productList}</div>
     </>
   );
 }

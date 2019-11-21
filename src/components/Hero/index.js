@@ -28,23 +28,12 @@ export default class Hero extends Component {
                 </div>
                 <div id="navbarMenuHeroC" className="navbar-menu">
                   <div className="navbar-end">
-                    <Link to="#" className="navbar-item is-active">
+                    <Link to="/" className="navbar-item is-active">
                       Home
                     </Link>
-                    <Link to="#" className="navbar-item">
-                      Examples
+                    <Link to="/cart" className="navbar-item is-active">
+                      <span>Cart</span>
                     </Link>
-                    <Link to="#" className="navbar-item">
-                      Documentation
-                    </Link>
-                    <span className="navbar-item">
-                      <Link to="#" className="button is-success is-inverted">
-                        <span className="icon">
-                          <i className="fab fa-github"></i>
-                        </span>
-                        <span>Download</span>
-                      </Link>
-                    </span>
                   </div>
                 </div>
               </div>

@@ -12,11 +12,8 @@ export default class Shop extends Component {
     return (
       <>
         <section className="section" id="shop">
-          <h1>{this.constructor.name}</h1>
+          <h1 className="title is-1">{this.constructor.name}</h1>
           <Products />
-          <Link to="/cart">
-            <button className="button is-success">Cart</button>
-          </Link>
         </section>
       </>
     );
