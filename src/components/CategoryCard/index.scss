@@ -1,0 +1,15 @@
+@import "../../scss/variables.scss";
+
+.card {
+  width: 30%;
+  float: left;
+  max-width: 32%;
+  margin: 1%;
+  .content {
+    text-align: left;
+    .button {
+      float: right;
+      margin: 20px 10px;
+    }
+  }
+}

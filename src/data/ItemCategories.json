@@ -1,0 +1,716 @@
+[
+  {
+    "ItemID": "JW-101-LS-01-WH",
+    "Name": "Angles Linen Set",
+    "categoryID": "AnglesLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-136-01-WH-SET",
+    "Name": "Angles Duvet Cover & Shams Set",
+    "categoryID": "AnglesLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-106-01-WH",
+    "Name": "Angles Sheet Set",
+    "categoryID": "AnglesLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-116-01-WH",
+    "Name": "Angles Pillow Shams",
+    "categoryID": "AnglesLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 4
+  },
+  {
+    "ItemID": "JW-136-01-WH",
+    "Name": "Angles Duvet Cover",
+    "categoryID": "AnglesLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 5
+  },
+  {
+    "ItemID": "JW-105-01-WH",
+    "Name": "Angles Pillowcases",
+    "categoryID": "AnglesLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 6
+  },
+  {
+    "ItemID": "JW-103-01-WH",
+    "Name": "Angles Flat Sheet",
+    "categoryID": "AnglesLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 7
+  },
+  {
+    "ItemID": "JW-104-WH",
+    "Name": "Hotel Fitted Sheet",
+    "categoryID": "AnglesLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 8
+  },
+  {
+    "ItemID": "JW-308-AA-10",
+    "Name": "Ylang Ylang Hair & Skincare Set",
+    "categoryID": "BathBody",
+    "CategoryLevel": 1,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-307-AA-HC-10",
+    "Name": "Ylang Ylang Hair Care Set",
+    "categoryID": "BathBody",
+    "CategoryLevel": 1,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-307-AA-BC-10",
+    "Name": "Ylang Ylang Body Care Set",
+    "categoryID": "BathBody",
+    "CategoryLevel": 1,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-303-AA-10",
+    "Name": "Ylang Ylang Shampoo",
+    "categoryID": "BathBody",
+    "CategoryLevel": 1,
+    "SortIndex": 4
+  },
+  {
+    "ItemID": "JW-304-AA-10",
+    "Name": "Ylang Ylang Conditioner",
+    "categoryID": "BathBody",
+    "CategoryLevel": 1,
+    "SortIndex": 5
+  },
+  {
+    "ItemID": "JW-301-AA-10",
+    "Name": "Ylang Ylang Body Wash",
+    "categoryID": "BathBody",
+    "CategoryLevel": 1,
+    "SortIndex": 6
+  },
+  {
+    "ItemID": "JW-302-AA-10",
+    "Name": "Ylang Ylang Body Lotion",
+    "categoryID": "BathBody",
+    "CategoryLevel": 1,
+    "SortIndex": 7
+  },
+  {
+    "ItemID": "JW-309-AA",
+    "Name": "Travel Set",
+    "categoryID": "BathBody",
+    "CategoryLevel": 1,
+    "SortIndex": 8
+  },
+  {
+    "ItemID": "JW-300SS-B",
+    "Name": "Lavender Body Bars",
+    "categoryID": "BathBody",
+    "CategoryLevel": 1,
+    "SortIndex": 9
+  },
+  {
+    "ItemID": "JW-300SS-F",
+    "Name": "Lavender Facial Bars",
+    "categoryID": "BathBody",
+    "CategoryLevel": 1,
+    "SortIndex": 10
+  },
+  {
+    "ItemID": "JW-305-REV-MRN",
+    "Name": "Revive Morning Bath & Shower Oil",
+    "categoryID": "BathBody",
+    "CategoryLevel": 1,
+    "SortIndex": 11
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "Name": "Mattress & Box Spring Set",
+    "categoryID": "Bed",
+    "CategoryLevel": 0,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-101-GEO",
+    "Name": "Geo Bed & Bedding Set",
+    "categoryID": "Bed",
+    "CategoryLevel": 0,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-101-PIS",
+    "Name": "Pisces Bed & Bedding Set",
+    "categoryID": "Bed",
+    "CategoryLevel": 0,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-101-01",
+    "Name": "Classic Bed & Bedding Set",
+    "categoryID": "Bed",
+    "CategoryLevel": 0,
+    "SortIndex": 4
+  },
+  {
+    "ItemID": "JW-101-BE-GEO",
+    "Name": "Geo Bedding Set",
+    "categoryID": "BeddingSets",
+    "CategoryLevel": 1,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-101-BE-PIS",
+    "Name": "Pisces Bedding Set",
+    "categoryID": "BeddingSets",
+    "CategoryLevel": 1,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-101-BE-01",
+    "Name": "Classic Bedding Set",
+    "categoryID": "BeddingSets",
+    "CategoryLevel": 1,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-112",
+    "Name": "Down Comforter",
+    "categoryID": "BlanketsComforters",
+    "CategoryLevel": 1,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-120",
+    "Name": "Down Blanket",
+    "categoryID": "BlanketsComforters",
+    "CategoryLevel": 1,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-121",
+    "Name": "Down Alternative Comforter",
+    "categoryID": "BlanketsComforters",
+    "CategoryLevel": 1,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-120-C",
+    "Name": "Textured Cotton Blanket",
+    "categoryID": "BlanketsComforters",
+    "CategoryLevel": 1,
+    "SortIndex": 4
+  },
+  {
+    "ItemID": "JW-456-01-PK",
+    "Name": "JW Barre Socks",
+    "categoryID": "culture",
+    "CategoryLevel": 0,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-218-01-WH",
+    "Name": "Embroidered Duvet Cover & Shams Set",
+    "categoryID": "EmbroideredLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-246-WH",
+    "Name": "Embroidered Duvet Cover",
+    "categoryID": "EmbroideredLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-216-WH",
+    "Name": "Embroidered Pillow Shams",
+    "categoryID": "EmbroideredLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-248-WH",
+    "Name": "Embroidered Sheet Set",
+    "categoryID": "EmbroideredLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 4
+  },
+  {
+    "ItemID": "JW-245-WH",
+    "Name": "Embroidered Pillowcases",
+    "categoryID": "EmbroideredLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 5
+  },
+  {
+    "ItemID": "JW-243-WH",
+    "Name": "Embroidered Flat Sheet",
+    "categoryID": "EmbroideredLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 6
+  },
+  {
+    "ItemID": "JW-244-WH",
+    "Name": "Embroidered Fitted Sheet",
+    "categoryID": "EmbroideredLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 7
+  },
+  {
+    "ItemID": "JW-600-01-01-01-10",
+    "Name": "Subtle Sophistication Candle",
+    "categoryID": "Fragrance",
+    "CategoryLevel": 0,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-610-SS",
+    "Name": "Subtle Sophistication Room Diffuser",
+    "categoryID": "Fragrance",
+    "CategoryLevel": 0,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-611-SS",
+    "Name": "Subtle Sophistication Room Diffuser Refill",
+    "categoryID": "Fragrance",
+    "CategoryLevel": 0,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-600-01-SPA-WL-11",
+    "Name": "SPA by JW Candle",
+    "categoryID": "Fragrance",
+    "CategoryLevel": 0,
+    "SortIndex": 4
+  },
+  {
+    "ItemID": "JW-606-01-SPA-WL-3",
+    "Name": "SPA by JW Reed Diffuser",
+    "categoryID": "Fragrance",
+    "CategoryLevel": 0,
+    "SortIndex": 5
+  },
+  {
+    "ItemID": "JW-605-02-02-BK-WL-3",
+    "Name": "SPA by JW Room Spray",
+    "categoryID": "Fragrance",
+    "CategoryLevel": 0,
+    "SortIndex": 7
+  },
+  {
+    "ItemID": "JW-610-SPA",
+    "Name": "SPA by JW Room Diffuser",
+    "categoryID": "Fragrance",
+    "CategoryLevel": 0,
+    "SortIndex": 8
+  },
+  {
+    "ItemID": "JW-611-SPA",
+    "Name": "SPA by JW Room Diffuser Refill",
+    "categoryID": "Fragrance",
+    "CategoryLevel": 0,
+    "SortIndex": 9
+  },
+  {
+    "ItemID": "JW-101-LS-GEO",
+    "Name": "Geo Linen Set",
+    "categoryID": "GeoLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-136-WH-G",
+    "Name": "Geo Duvet Cover",
+    "categoryID": "GeoLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-105-WH-G",
+    "Name": "Geo Pillowcases",
+    "categoryID": "GeoLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-103-WH-D",
+    "Name": "Dune Flat Sheet",
+    "categoryID": "GeoLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 4
+  },
+  {
+    "ItemID": "JW-104-WH",
+    "Name": "Hotel Fitted Sheet",
+    "categoryID": "GeoLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 5
+  },
+  {
+    "ItemID": "JW-106-WH",
+    "Name": "Hotel Sheet Set",
+    "categoryID": "HotelSheets",
+    "CategoryLevel": 2,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-105-WH",
+    "Name": "Hotel Pillowcases",
+    "categoryID": "HotelSheets",
+    "CategoryLevel": 2,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-103-WH",
+    "Name": "Hotel Flat Sheet",
+    "categoryID": "HotelSheets",
+    "CategoryLevel": 2,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-104-WH",
+    "Name": "Hotel Fitted Sheet",
+    "categoryID": "HotelSheets",
+    "CategoryLevel": 2,
+    "SortIndex": 4
+  },
+  {
+    "ItemID": "JW-136-02-WH",
+    "Name": "Classic Duvet Cover",
+    "categoryID": "Linens",
+    "CategoryLevel": 1,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-136-02-WH",
+    "Name": "Classic Duvet Cover",
+    "categoryID": "LinensLink",
+    "CategoryLevel": 0,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-114",
+    "Name": "Mattress Topper",
+    "categoryID": "MattressToppers",
+    "CategoryLevel": 1,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-113",
+    "Name": "Featherbed",
+    "categoryID": "MattressToppers",
+    "CategoryLevel": 1,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-117",
+    "Name": "Featherbed Protector",
+    "categoryID": "MattressToppers",
+    "CategoryLevel": 1,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-108-L",
+    "Name": "The JW Pillow",
+    "categoryID": "Pillows",
+    "CategoryLevel": 1,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-108-ECO",
+    "Name": "Down Alternative Pillow",
+    "categoryID": "Pillows",
+    "CategoryLevel": 1,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-108",
+    "Name": "Feather & Down Pillow",
+    "categoryID": "Pillows",
+    "CategoryLevel": 1,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-108-D",
+    "Name": "Down Pillow",
+    "categoryID": "Pillows",
+    "CategoryLevel": 1,
+    "SortIndex": 4
+  },
+  {
+    "ItemID": "JW-108-E",
+    "Name": "Euro Pillow",
+    "categoryID": "Pillows",
+    "CategoryLevel": 1,
+    "SortIndex": 5
+  },
+  {
+    "ItemID": "JW-107-1",
+    "Name": "Pillow Protector",
+    "categoryID": "Pillows",
+    "CategoryLevel": 1,
+    "SortIndex": 6
+  },
+  {
+    "ItemID": "JW-108-DC-01-PA",
+    "Name": "Paparazzi Throw Pillow",
+    "categoryID": "Pillows",
+    "CategoryLevel": 1,
+    "SortIndex": 7
+  },
+  {
+    "ItemID": "JW-108-DC-02-BK",
+    "Name": "Velvet Bolster Pillow",
+    "categoryID": "Pillows",
+    "CategoryLevel": 1,
+    "SortIndex": 8
+  },
+  {
+    "ItemID": "JW-108-DC-03-GY",
+    "Name": "Velvet Throw Pillow",
+    "categoryID": "Pillows",
+    "CategoryLevel": 1,
+    "SortIndex": 9
+  },
+  {
+    "ItemID": "JW-108-DC-04-SI",
+    "Name": "Silk Throw Pillow",
+    "categoryID": "Pillows",
+    "CategoryLevel": 1,
+    "SortIndex": 10
+  },
+  {
+    "ItemID": "JW-108-L",
+    "Name": "The JW Pillow",
+    "categoryID": "PillowsLink",
+    "CategoryLevel": 0,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-108-ECO",
+    "Name": "Down Alternative Pillow",
+    "categoryID": "PillowsLink",
+    "CategoryLevel": 0,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-108",
+    "Name": "Feather & Down Pillow",
+    "categoryID": "PillowsLink",
+    "CategoryLevel": 0,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-108-D",
+    "Name": "Down Pillow",
+    "categoryID": "PillowsLink",
+    "CategoryLevel": 0,
+    "SortIndex": 4
+  },
+  {
+    "ItemID": "JW-108-E",
+    "Name": "Euro Pillow",
+    "categoryID": "PillowsLink",
+    "CategoryLevel": 0,
+    "SortIndex": 5
+  },
+  {
+    "ItemID": "JW-107-1",
+    "Name": "Pillow Protector",
+    "categoryID": "PillowsLink",
+    "CategoryLevel": 0,
+    "SortIndex": 6
+  },
+  {
+    "ItemID": "JW-108-DC-01-PA",
+    "Name": "Paparazzi Throw Pillow",
+    "categoryID": "PillowsLink",
+    "CategoryLevel": 0,
+    "SortIndex": 7
+  },
+  {
+    "ItemID": "JW-108-DC-02-BK",
+    "Name": "Velvet Bolster Pillow",
+    "categoryID": "PillowsLink",
+    "CategoryLevel": 0,
+    "SortIndex": 8
+  },
+  {
+    "ItemID": "JW-108-DC-03-GY",
+    "Name": "Velvet Throw Pillow",
+    "categoryID": "PillowsLink",
+    "CategoryLevel": 0,
+    "SortIndex": 9
+  },
+  {
+    "ItemID": "JW-108-DC-04-SI",
+    "Name": "Silk Throw Pillow",
+    "categoryID": "PillowsLink",
+    "CategoryLevel": 0,
+    "SortIndex": 10
+  },
+  {
+    "ItemID": "JW-101-LS-PIS",
+    "Name": "Pisces Linen Set",
+    "categoryID": "PiscesLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-136-WH-P",
+    "Name": "Pisces Duvet Cover",
+    "categoryID": "PiscesLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-105-WH-P",
+    "Name": "Pisces Pillowcases",
+    "categoryID": "PiscesLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-103-WH-T",
+    "Name": "Striped Flat Sheet",
+    "categoryID": "PiscesLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 4
+  },
+  {
+    "ItemID": "JW-104-WH",
+    "Name": "Hotel Fitted Sheet",
+    "categoryID": "PiscesLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 5
+  },
+  {
+    "ItemID": "JW-404",
+    "Name": "Velour Bathrobe",
+    "categoryID": "Robes",
+    "CategoryLevel": 1,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-403-DWS-NL",
+    "Name": "Waffle Bathrobe",
+    "categoryID": "Robes",
+    "CategoryLevel": 1,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-403",
+    "Name": "Microfiber Spa Robe",
+    "categoryID": "Robes",
+    "CategoryLevel": 1,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "TEST-123-SUB",
+    "Name": "TEST-123 - subscription",
+    "categoryID": "test",
+    "CategoryLevel": 1,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "TEST-123",
+    "Name": "TEST-123",
+    "categoryID": "test",
+    "CategoryLevel": 1,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "TEST-123-3",
+    "Name": "TEST-123-3",
+    "categoryID": "testp3",
+    "CategoryLevel": 1,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "TEST-123-SUB-3",
+    "Name": "TEST-123 - subscription",
+    "categoryID": "testp3",
+    "CategoryLevel": 1,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-171-02-01",
+    "Name": "Hygge Throw",
+    "categoryID": "throws",
+    "CategoryLevel": 1,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-171-04-NV",
+    "Name": "Houndstooth Throw",
+    "categoryID": "throws",
+    "CategoryLevel": 1,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-171-02",
+    "Name": "Sky Throw",
+    "categoryID": "throws",
+    "CategoryLevel": 1,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-171-03",
+    "Name": "Triangle Throw",
+    "categoryID": "throws",
+    "CategoryLevel": 1,
+    "SortIndex": 4
+  },
+  {
+    "ItemID": "JW-171-01",
+    "Name": "Herringbone Throw",
+    "categoryID": "throws",
+    "CategoryLevel": 1,
+    "SortIndex": 5
+  },
+  {
+    "ItemID": "JW-110-SET",
+    "Name": "Towel Set",
+    "categoryID": "Towels",
+    "CategoryLevel": 1,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-110-BT",
+    "Name": "Bath Towel",
+    "categoryID": "Towels",
+    "CategoryLevel": 1,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-110-HT",
+    "Name": "Hand Towel",
+    "categoryID": "Towels",
+    "CategoryLevel": 1,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-110-FT",
+    "Name": "Washcloth",
+    "categoryID": "Towels",
+    "CategoryLevel": 1,
+    "SortIndex": 4
+  },
+  {
+    "ItemID": "JW-310-PT-WL",
+    "Name": "Pool Towel",
+    "categoryID": "Towels",
+    "CategoryLevel": 1,
+    "SortIndex": 5
+  }
+]

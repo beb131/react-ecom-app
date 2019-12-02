@@ -27,12 +27,22 @@ function App() {
   const [cartState, setCartState] = useState(initialCart);
   const [cartProducts, dispatchCart] = useReducer(cartReducer, cartState);
 
+  // https://overreacted.io/a-complete-guide-to-useeffect/
+  //
+  // https://medium.com/@cwlsn/how-to-fetch-data-with-react-hooks-in-a-minute-e0f9a15a44d6
+  //
   // useEffect(async () => {
   //   const result = await axios(
   //     "https://hn.algolia.com/api/v1/search?query=redux"
   //   );
   //   setData(result.data);
   // });
+
+  const categories = useEffect(() => {
+    fetch("data/Categories.json").then(data => {
+      console.log(data);
+    });
+  });
 
   const handleAddToCart = product => {
     setCartState(
