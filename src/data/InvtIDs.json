@@ -1,0 +1,1498 @@
+[
+  {
+    "ItemID": "JW-101-01",
+    "InvtID": "JW-101-01-K-LP",
+    "USD_ListPrice": 4010.0,
+    "USD_Price": 3041.85,
+    "stkItem": 1,
+    "qtyAvail": 1.0
+  },
+  {
+    "ItemID": "JW-101-01",
+    "InvtID": "JW-101-01-K-MO",
+    "USD_ListPrice": 3835.0,
+    "USD_Price": 2866.85,
+    "stkItem": 1,
+    "qtyAvail": 1.0
+  },
+  {
+    "ItemID": "JW-101-01",
+    "InvtID": "JW-101-01-K-ST",
+    "USD_ListPrice": 3935.0,
+    "USD_Price": 2966.85,
+    "stkItem": 1,
+    "qtyAvail": 1.0
+  },
+  {
+    "ItemID": "JW-101-01",
+    "InvtID": "JW-101-01-Q-LP",
+    "USD_ListPrice": 3620.0,
+    "USD_Price": 2704.85,
+    "stkItem": 1,
+    "qtyAvail": 12.0
+  },
+  {
+    "ItemID": "JW-101-01",
+    "InvtID": "JW-101-01-Q-MO",
+    "USD_ListPrice": 3445.0,
+    "USD_Price": 2529.85,
+    "stkItem": 1,
+    "qtyAvail": 12.0
+  },
+  {
+    "ItemID": "JW-101-01",
+    "InvtID": "JW-101-01-Q-ST",
+    "USD_ListPrice": 3545.0,
+    "USD_Price": 2629.85,
+    "stkItem": 1,
+    "qtyAvail": 12.0
+  },
+  {
+    "ItemID": "JW-101-BE-01",
+    "InvtID": "JW-101-BE-01-K",
+    "USD_ListPrice": 1685.0,
+    "USD_Price": 1216.85,
+    "stkItem": 1,
+    "qtyAvail": 1.0
+  },
+  {
+    "ItemID": "JW-101-BE-01",
+    "InvtID": "JW-101-BE-01-Q",
+    "USD_ListPrice": 1495.0,
+    "USD_Price": 1079.85,
+    "stkItem": 1,
+    "qtyAvail": 12.0
+  },
+  {
+    "ItemID": "JW-101-BE-GEO",
+    "InvtID": "JW-101-BE-GEO-K",
+    "USD_ListPrice": 1735.0,
+    "USD_Price": 1254.35,
+    "stkItem": 1,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-101-BE-GEO",
+    "InvtID": "JW-101-BE-GEO-Q",
+    "USD_ListPrice": 1540.0,
+    "USD_Price": 1113.6,
+    "stkItem": 1,
+    "qtyAvail": 7.0
+  },
+  {
+    "ItemID": "JW-101-BE-PIS",
+    "InvtID": "JW-101-BE-PIS-K",
+    "USD_ListPrice": 1715.0,
+    "USD_Price": 1239.35,
+    "stkItem": 1,
+    "qtyAvail": 8.0
+  },
+  {
+    "ItemID": "JW-101-BE-PIS",
+    "InvtID": "JW-101-BE-PIS-Q",
+    "USD_ListPrice": 1520.0,
+    "USD_Price": 1098.6,
+    "stkItem": 1,
+    "qtyAvail": 3.0
+  },
+  {
+    "ItemID": "JW-101-GEO",
+    "InvtID": "JW-101-GEO-K-LP",
+    "USD_ListPrice": 4060.0,
+    "USD_Price": 3079.35,
+    "stkItem": 1,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-101-GEO",
+    "InvtID": "JW-101-GEO-K-MO",
+    "USD_ListPrice": 3885.0,
+    "USD_Price": 2904.35,
+    "stkItem": 1,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-101-GEO",
+    "InvtID": "JW-101-GEO-K-ST",
+    "USD_ListPrice": 3985.0,
+    "USD_Price": 3004.35,
+    "stkItem": 1,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-101-GEO",
+    "InvtID": "JW-101-GEO-Q-LP",
+    "USD_ListPrice": 3665.0,
+    "USD_Price": 2738.6,
+    "stkItem": 1,
+    "qtyAvail": 7.0
+  },
+  {
+    "ItemID": "JW-101-GEO",
+    "InvtID": "JW-101-GEO-Q-MO",
+    "USD_ListPrice": 3490.0,
+    "USD_Price": 2563.6,
+    "stkItem": 1,
+    "qtyAvail": 7.0
+  },
+  {
+    "ItemID": "JW-101-GEO",
+    "InvtID": "JW-101-GEO-Q-ST",
+    "USD_ListPrice": 3590.0,
+    "USD_Price": 2663.6,
+    "stkItem": 1,
+    "qtyAvail": 7.0
+  },
+  {
+    "ItemID": "JW-101-LS-01-WH",
+    "InvtID": "JW-101-LS-01-WH-K",
+    "USD_ListPrice": 771.0,
+    "USD_Price": 578.25,
+    "stkItem": 1,
+    "qtyAvail": 1.0
+  },
+  {
+    "ItemID": "JW-101-LS-01-WH",
+    "InvtID": "JW-101-LS-01-WH-Q",
+    "USD_ListPrice": 677.0,
+    "USD_Price": 507.75,
+    "stkItem": 1,
+    "qtyAvail": 11.0
+  },
+  {
+    "ItemID": "JW-101-LS-GEO",
+    "InvtID": "JW-101-LS-GEO-K",
+    "USD_ListPrice": 705.0,
+    "USD_Price": 528.75,
+    "stkItem": 1,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-101-LS-GEO",
+    "InvtID": "JW-101-LS-GEO-Q",
+    "USD_ListPrice": 615.0,
+    "USD_Price": 461.25,
+    "stkItem": 1,
+    "qtyAvail": 6.0
+  },
+  {
+    "ItemID": "JW-101-LS-PIS",
+    "InvtID": "JW-101-LS-PIS-K",
+    "USD_ListPrice": 685.0,
+    "USD_Price": 513.75,
+    "stkItem": 1,
+    "qtyAvail": 8.0
+  },
+  {
+    "ItemID": "JW-101-LS-PIS",
+    "InvtID": "JW-101-LS-PIS-Q",
+    "USD_ListPrice": 595.0,
+    "USD_Price": 446.25,
+    "stkItem": 1,
+    "qtyAvail": 3.0
+  },
+  {
+    "ItemID": "JW-101-PIS",
+    "InvtID": "JW-101-PIS-K-LP",
+    "USD_ListPrice": 4040.0,
+    "USD_Price": 3064.35,
+    "stkItem": 1,
+    "qtyAvail": 8.0
+  },
+  {
+    "ItemID": "JW-101-PIS",
+    "InvtID": "JW-101-PIS-K-MO",
+    "USD_ListPrice": 3865.0,
+    "USD_Price": 2889.35,
+    "stkItem": 1,
+    "qtyAvail": 8.0
+  },
+  {
+    "ItemID": "JW-101-PIS",
+    "InvtID": "JW-101-PIS-K-ST",
+    "USD_ListPrice": 3965.0,
+    "USD_Price": 2989.35,
+    "stkItem": 1,
+    "qtyAvail": 8.0
+  },
+  {
+    "ItemID": "JW-101-PIS",
+    "InvtID": "JW-101-PIS-Q-LP",
+    "USD_ListPrice": 3645.0,
+    "USD_Price": 2723.6,
+    "stkItem": 1,
+    "qtyAvail": 3.0
+  },
+  {
+    "ItemID": "JW-101-PIS",
+    "InvtID": "JW-101-PIS-Q-MO",
+    "USD_ListPrice": 3470.0,
+    "USD_Price": 2548.6,
+    "stkItem": 1,
+    "qtyAvail": 3.0
+  },
+  {
+    "ItemID": "JW-101-PIS",
+    "InvtID": "JW-101-PIS-Q-ST",
+    "USD_ListPrice": 3570.0,
+    "USD_Price": 2648.6,
+    "stkItem": 1,
+    "qtyAvail": 3.0
+  },
+  {
+    "ItemID": "JW-103-01-WH",
+    "InvtID": "JW-103-01-WH-K",
+    "USD_ListPrice": 139.0,
+    "USD_Price": 104.25,
+    "stkItem": 1,
+    "qtyAvail": 20.0
+  },
+  {
+    "ItemID": "JW-103-01-WH",
+    "InvtID": "JW-103-01-WH-Q",
+    "USD_ListPrice": 125.0,
+    "USD_Price": 93.75,
+    "stkItem": 1,
+    "qtyAvail": 17.0
+  },
+  {
+    "ItemID": "JW-103-WH",
+    "InvtID": "JW-103-WH-K",
+    "USD_ListPrice": 99.0,
+    "USD_Price": 74.25,
+    "stkItem": 1,
+    "qtyAvail": 39.0
+  },
+  {
+    "ItemID": "JW-103-WH",
+    "InvtID": "JW-103-WH-Q",
+    "USD_ListPrice": 79.0,
+    "USD_Price": 59.25,
+    "stkItem": 1,
+    "qtyAvail": 21.0
+  },
+  {
+    "ItemID": "JW-103-WH-D",
+    "InvtID": "JW-103-WH-D-K",
+    "USD_ListPrice": 119.0,
+    "USD_Price": 89.25,
+    "stkItem": 1,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-103-WH-D",
+    "InvtID": "JW-103-WH-D-Q",
+    "USD_ListPrice": 99.0,
+    "USD_Price": 74.25,
+    "stkItem": 1,
+    "qtyAvail": 13.0
+  },
+  {
+    "ItemID": "JW-103-WH-T",
+    "InvtID": "JW-103-WH-T-K",
+    "USD_ListPrice": 99.0,
+    "USD_Price": 74.25,
+    "stkItem": 1,
+    "qtyAvail": 8.0
+  },
+  {
+    "ItemID": "JW-103-WH-T",
+    "InvtID": "JW-103-WH-T-Q",
+    "USD_ListPrice": 79.0,
+    "USD_Price": 59.25,
+    "stkItem": 1,
+    "qtyAvail": 16.0
+  },
+  {
+    "ItemID": "JW-104-WH",
+    "InvtID": "JW-104-WH-K",
+    "USD_ListPrice": 109.0,
+    "USD_Price": 81.75,
+    "stkItem": 1,
+    "qtyAvail": 40.0
+  },
+  {
+    "ItemID": "JW-104-WH",
+    "InvtID": "JW-104-WH-Q",
+    "USD_ListPrice": 99.0,
+    "USD_Price": 74.25,
+    "stkItem": 1,
+    "qtyAvail": 41.0
+  },
+  {
+    "ItemID": "JW-105-01-WH",
+    "InvtID": "JW-105-01-WH-K",
+    "USD_ListPrice": 95.0,
+    "USD_Price": 71.25,
+    "stkItem": 1,
+    "qtyAvail": 53.0
+  },
+  {
+    "ItemID": "JW-105-01-WH",
+    "InvtID": "JW-105-01-WH-Q",
+    "USD_ListPrice": 85.0,
+    "USD_Price": 63.75,
+    "stkItem": 1,
+    "qtyAvail": 37.0
+  },
+  {
+    "ItemID": "JW-105-01-WH",
+    "InvtID": "JW-105-01-WH-S",
+    "USD_ListPrice": 75.0,
+    "USD_Price": 56.25,
+    "stkItem": 1,
+    "qtyAvail": 8.0
+  },
+  {
+    "ItemID": "JW-105-WH",
+    "InvtID": "JW-105-WH-SQ",
+    "USD_ListPrice": 59.0,
+    "USD_Price": 44.25,
+    "stkItem": 1,
+    "qtyAvail": 42.0
+  },
+  {
+    "ItemID": "JW-105-WH",
+    "InvtID": "JW-105-WH-K",
+    "USD_ListPrice": 69.0,
+    "USD_Price": 51.75,
+    "stkItem": 1,
+    "qtyAvail": 58.0
+  },
+  {
+    "ItemID": "JW-105-WH-G",
+    "InvtID": "JW-105-WH-G-K",
+    "USD_ListPrice": 89.0,
+    "USD_Price": 66.75,
+    "stkItem": 1,
+    "qtyAvail": 36.0
+  },
+  {
+    "ItemID": "JW-105-WH-G",
+    "InvtID": "JW-105-WH-G-Q",
+    "USD_ListPrice": 74.0,
+    "USD_Price": 55.5,
+    "stkItem": 1,
+    "qtyAvail": 7.0
+  },
+  {
+    "ItemID": "JW-105-WH-G",
+    "InvtID": "JW-105-WH-G-S",
+    "USD_ListPrice": 69.0,
+    "USD_Price": 51.75,
+    "stkItem": 1,
+    "qtyAvail": 37.0
+  },
+  {
+    "ItemID": "JW-105-WH-P",
+    "InvtID": "JW-105-WH-P-K",
+    "USD_ListPrice": 89.0,
+    "USD_Price": 66.75,
+    "stkItem": 1,
+    "qtyAvail": 37.0
+  },
+  {
+    "ItemID": "JW-105-WH-P",
+    "InvtID": "JW-105-WH-P-Q",
+    "USD_ListPrice": 74.0,
+    "USD_Price": 55.5,
+    "stkItem": 1,
+    "qtyAvail": 60.0
+  },
+  {
+    "ItemID": "JW-105-WH-P",
+    "InvtID": "JW-105-WH-P-S",
+    "USD_ListPrice": 69.0,
+    "USD_Price": 51.75,
+    "stkItem": 1,
+    "qtyAvail": 7.0
+  },
+  {
+    "ItemID": "JW-106-01-WH",
+    "InvtID": "JW-106-01-WH-K",
+    "USD_ListPrice": 343.0,
+    "USD_Price": 257.25,
+    "stkItem": 1,
+    "qtyAvail": 20.0
+  },
+  {
+    "ItemID": "JW-106-01-WH",
+    "InvtID": "JW-106-01-WH-Q",
+    "USD_ListPrice": 309.0,
+    "USD_Price": 231.75,
+    "stkItem": 1,
+    "qtyAvail": 17.0
+  },
+  {
+    "ItemID": "JW-106-WH",
+    "InvtID": "JW-106-WH-K",
+    "USD_ListPrice": 277.0,
+    "USD_Price": 207.75,
+    "stkItem": 1,
+    "qtyAvail": 39.0
+  },
+  {
+    "ItemID": "JW-106-WH",
+    "InvtID": "JW-106-WH-Q",
+    "USD_ListPrice": 237.0,
+    "USD_Price": 177.75,
+    "stkItem": 1,
+    "qtyAvail": 21.0
+  },
+  {
+    "ItemID": "JW-107-1",
+    "InvtID": "JW-107-1-E",
+    "USD_ListPrice": 14.0,
+    "USD_Price": 11.2,
+    "stkItem": 1,
+    "qtyAvail": 389.0
+  },
+  {
+    "ItemID": "JW-107-1",
+    "InvtID": "JW-107-1-K",
+    "USD_ListPrice": 14.0,
+    "USD_Price": 11.2,
+    "stkItem": 1,
+    "qtyAvail": 8601.0
+  },
+  {
+    "ItemID": "JW-107-1",
+    "InvtID": "JW-107-1-Q",
+    "USD_ListPrice": 14.0,
+    "USD_Price": 11.2,
+    "stkItem": 1,
+    "qtyAvail": 8675.0
+  },
+  {
+    "ItemID": "JW-107-1",
+    "InvtID": "JW-107-1-S",
+    "USD_ListPrice": 14.0,
+    "USD_Price": 11.2,
+    "stkItem": 1,
+    "qtyAvail": 3724.0
+  },
+  {
+    "ItemID": "JW-108",
+    "InvtID": "JW-108-Q",
+    "USD_ListPrice": 119.0,
+    "USD_Price": 83.3,
+    "stkItem": 1,
+    "qtyAvail": 252.0
+  },
+  {
+    "ItemID": "JW-108",
+    "InvtID": "JW-108-S",
+    "USD_ListPrice": 109.0,
+    "USD_Price": 76.3,
+    "stkItem": 1,
+    "qtyAvail": 90.0
+  },
+  {
+    "ItemID": "JW-108",
+    "InvtID": "JW-108-K",
+    "USD_ListPrice": 129.0,
+    "USD_Price": 90.3,
+    "stkItem": 1,
+    "qtyAvail": 82.0
+  },
+  {
+    "ItemID": "JW-108-D",
+    "InvtID": "JW-108-D-K",
+    "USD_ListPrice": 289.0,
+    "USD_Price": 202.3,
+    "stkItem": 1,
+    "qtyAvail": 23.0
+  },
+  {
+    "ItemID": "JW-108-D",
+    "InvtID": "JW-108-D-Q",
+    "USD_ListPrice": 259.0,
+    "USD_Price": 181.3,
+    "stkItem": 1,
+    "qtyAvail": 117.0
+  },
+  {
+    "ItemID": "JW-108-D",
+    "InvtID": "JW-108-D-S",
+    "USD_ListPrice": 219.0,
+    "USD_Price": 153.3,
+    "stkItem": 1,
+    "qtyAvail": 98.0
+  },
+  {
+    "ItemID": "JW-108-DC-01-PA",
+    "InvtID": "JW-108-DC-01-PA",
+    "USD_ListPrice": 160.0,
+    "USD_Price": 112.0,
+    "stkItem": 1,
+    "qtyAvail": 23.0
+  },
+  {
+    "ItemID": "JW-108-DC-03-GY",
+    "InvtID": "JW-108-DC-03-GY",
+    "USD_ListPrice": 190.0,
+    "USD_Price": 133.0,
+    "stkItem": 1,
+    "qtyAvail": 1.0
+  },
+  {
+    "ItemID": "JW-108-DC-04-SI",
+    "InvtID": "JW-108-DC-04-SI",
+    "USD_ListPrice": 190.0,
+    "USD_Price": 133.0,
+    "stkItem": 1,
+    "qtyAvail": 1.0
+  },
+  {
+    "ItemID": "JW-108-E",
+    "InvtID": "JW-108-E",
+    "USD_ListPrice": 49.0,
+    "USD_Price": 34.3,
+    "stkItem": 1,
+    "qtyAvail": 296.0
+  },
+  {
+    "ItemID": "JW-108-ECO",
+    "InvtID": "JW-108-ECO-K",
+    "USD_ListPrice": 69.0,
+    "USD_Price": 48.3,
+    "stkItem": 1,
+    "qtyAvail": 936.0
+  },
+  {
+    "ItemID": "JW-108-ECO",
+    "InvtID": "JW-108-ECO-Q",
+    "USD_ListPrice": 59.0,
+    "USD_Price": 41.3,
+    "stkItem": 1,
+    "qtyAvail": 1455.0
+  },
+  {
+    "ItemID": "JW-108-ECO",
+    "InvtID": "JW-108-ECO-S",
+    "USD_ListPrice": 49.0,
+    "USD_Price": 34.3,
+    "stkItem": 1,
+    "qtyAvail": 1221.0
+  },
+  {
+    "ItemID": "JW-108-L",
+    "InvtID": "JW-108-L-K",
+    "USD_ListPrice": 99.0,
+    "USD_Price": 69.3,
+    "stkItem": 1,
+    "qtyAvail": 1770.0
+  },
+  {
+    "ItemID": "JW-108-L",
+    "InvtID": "JW-108-L-Q",
+    "USD_ListPrice": 89.0,
+    "USD_Price": 62.3,
+    "stkItem": 1,
+    "qtyAvail": 117.0
+  },
+  {
+    "ItemID": "JW-108-L",
+    "InvtID": "JW-108-L-S",
+    "USD_ListPrice": 82.0,
+    "USD_Price": 57.4,
+    "stkItem": 1,
+    "qtyAvail": 66.0
+  },
+  {
+    "ItemID": "JW-110-BT",
+    "InvtID": "JW-110-BT",
+    "USD_ListPrice": 30.0,
+    "USD_Price": 24.0,
+    "stkItem": 1,
+    "qtyAvail": 68.0
+  },
+  {
+    "ItemID": "JW-110-FT",
+    "InvtID": "JW-110-FT",
+    "USD_ListPrice": 6.0,
+    "USD_Price": 4.8,
+    "stkItem": 1,
+    "qtyAvail": 49.0
+  },
+  {
+    "ItemID": "JW-110-HT",
+    "InvtID": "JW-110-HT",
+    "USD_ListPrice": 14.0,
+    "USD_Price": 11.2,
+    "stkItem": 1,
+    "qtyAvail": 153.0
+  },
+  {
+    "ItemID": "JW-110-SET",
+    "InvtID": "JW-110-SET",
+    "USD_ListPrice": 100.0,
+    "USD_Price": 80.0,
+    "stkItem": 1,
+    "qtyAvail": 48.0
+  },
+  {
+    "ItemID": "JW-112",
+    "InvtID": "JW-112-F",
+    "USD_ListPrice": 299.0,
+    "USD_Price": 209.3,
+    "stkItem": 1,
+    "qtyAvail": 20.0
+  },
+  {
+    "ItemID": "JW-112",
+    "InvtID": "JW-112-K",
+    "USD_ListPrice": 399.0,
+    "USD_Price": 279.3,
+    "stkItem": 1,
+    "qtyAvail": 347.0
+  },
+  {
+    "ItemID": "JW-112",
+    "InvtID": "JW-112-Q",
+    "USD_ListPrice": 349.0,
+    "USD_Price": 244.3,
+    "stkItem": 1,
+    "qtyAvail": 193.0
+  },
+  {
+    "ItemID": "JW-113",
+    "InvtID": "JW-113-F",
+    "USD_ListPrice": 239.0,
+    "USD_Price": 167.3,
+    "stkItem": 1,
+    "qtyAvail": 33.0
+  },
+  {
+    "ItemID": "JW-113",
+    "InvtID": "JW-113-K",
+    "USD_ListPrice": 349.0,
+    "USD_Price": 244.3,
+    "stkItem": 1,
+    "qtyAvail": 230.0
+  },
+  {
+    "ItemID": "JW-113",
+    "InvtID": "JW-113-Q",
+    "USD_ListPrice": 299.0,
+    "USD_Price": 209.3,
+    "stkItem": 1,
+    "qtyAvail": 152.0
+  },
+  {
+    "ItemID": "JW-114",
+    "InvtID": "JW-114-CK",
+    "USD_ListPrice": 199.0,
+    "USD_Price": 139.3,
+    "stkItem": 1,
+    "qtyAvail": 92.0
+  },
+  {
+    "ItemID": "JW-114",
+    "InvtID": "JW-114-F",
+    "USD_ListPrice": 149.0,
+    "USD_Price": 104.3,
+    "stkItem": 1,
+    "qtyAvail": 83.0
+  },
+  {
+    "ItemID": "JW-114",
+    "InvtID": "JW-114-K",
+    "USD_ListPrice": 199.0,
+    "USD_Price": 139.3,
+    "stkItem": 1,
+    "qtyAvail": 610.0
+  },
+  {
+    "ItemID": "JW-114",
+    "InvtID": "JW-114-Q",
+    "USD_ListPrice": 179.0,
+    "USD_Price": 125.3,
+    "stkItem": 1,
+    "qtyAvail": 414.0
+  },
+  {
+    "ItemID": "JW-114",
+    "InvtID": "JW-114-T",
+    "USD_ListPrice": 129.0,
+    "USD_Price": 90.3,
+    "stkItem": 1,
+    "qtyAvail": 35.0
+  },
+  {
+    "ItemID": "JW-116-01-WH",
+    "InvtID": "JW-116-01-WH-K",
+    "USD_ListPrice": 99.0,
+    "USD_Price": 74.25,
+    "stkItem": 1,
+    "qtyAvail": 21.0
+  },
+  {
+    "ItemID": "JW-116-01-WH",
+    "InvtID": "JW-116-01-WH-Q",
+    "USD_ListPrice": 89.0,
+    "USD_Price": 66.75,
+    "stkItem": 1,
+    "qtyAvail": 29.0
+  },
+  {
+    "ItemID": "JW-116-01-WH",
+    "InvtID": "JW-116-01-WH-S",
+    "USD_ListPrice": 79.0,
+    "USD_Price": 59.25,
+    "stkItem": 1,
+    "qtyAvail": 8.0
+  },
+  {
+    "ItemID": "JW-117",
+    "InvtID": "JW-117-F",
+    "USD_ListPrice": 49.0,
+    "USD_Price": 34.3,
+    "stkItem": 1,
+    "qtyAvail": 31.0
+  },
+  {
+    "ItemID": "JW-117",
+    "InvtID": "JW-117-K",
+    "USD_ListPrice": 69.0,
+    "USD_Price": 48.3,
+    "stkItem": 1,
+    "qtyAvail": 255.0
+  },
+  {
+    "ItemID": "JW-117",
+    "InvtID": "JW-117-Q",
+    "USD_ListPrice": 59.0,
+    "USD_Price": 41.3,
+    "stkItem": 1,
+    "qtyAvail": 160.0
+  },
+  {
+    "ItemID": "JW-120",
+    "InvtID": "JW-120-F",
+    "USD_ListPrice": 289.0,
+    "USD_Price": 202.3,
+    "stkItem": 1,
+    "qtyAvail": 10.0
+  },
+  {
+    "ItemID": "JW-120",
+    "InvtID": "JW-120-K",
+    "USD_ListPrice": 389.0,
+    "USD_Price": 272.3,
+    "stkItem": 1,
+    "qtyAvail": 76.0
+  },
+  {
+    "ItemID": "JW-120",
+    "InvtID": "JW-120-Q",
+    "USD_ListPrice": 339.0,
+    "USD_Price": 237.3,
+    "stkItem": 1,
+    "qtyAvail": 56.0
+  },
+  {
+    "ItemID": "JW-120-C",
+    "InvtID": "JW-120-C-K",
+    "USD_ListPrice": 95.0,
+    "USD_Price": 66.5,
+    "stkItem": 1,
+    "qtyAvail": 5.0
+  },
+  {
+    "ItemID": "JW-120-C",
+    "InvtID": "JW-120-C-Q",
+    "USD_ListPrice": 85.0,
+    "USD_Price": 59.5,
+    "stkItem": 1,
+    "qtyAvail": 9.0
+  },
+  {
+    "ItemID": "JW-121",
+    "InvtID": "JW-121-F",
+    "USD_ListPrice": 149.0,
+    "USD_Price": 104.3,
+    "stkItem": 1,
+    "qtyAvail": 55.0
+  },
+  {
+    "ItemID": "JW-121",
+    "InvtID": "JW-121-K",
+    "USD_ListPrice": 229.0,
+    "USD_Price": 160.3,
+    "stkItem": 1,
+    "qtyAvail": 251.0
+  },
+  {
+    "ItemID": "JW-121",
+    "InvtID": "JW-121-Q",
+    "USD_ListPrice": 199.0,
+    "USD_Price": 139.3,
+    "stkItem": 1,
+    "qtyAvail": 129.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-CK-LP",
+    "USD_ListPrice": 2325.0,
+    "USD_Price": 1825.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-CK-MO",
+    "USD_ListPrice": 2150.0,
+    "USD_Price": 1650.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-CK-ST",
+    "USD_ListPrice": 2250.0,
+    "USD_Price": 1750.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-F-LP",
+    "USD_ListPrice": 1875.0,
+    "USD_Price": 1375.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-F-MO",
+    "USD_ListPrice": 1700.0,
+    "USD_Price": 1200.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-F-ST",
+    "USD_ListPrice": 1800.0,
+    "USD_Price": 1300.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-K-LP",
+    "USD_ListPrice": 2325.0,
+    "USD_Price": 1825.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-K-MO",
+    "USD_ListPrice": 2150.0,
+    "USD_Price": 1650.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-K-ST",
+    "USD_ListPrice": 2250.0,
+    "USD_Price": 1750.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-Q-LP",
+    "USD_ListPrice": 2125.0,
+    "USD_Price": 1625.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-Q-MO",
+    "USD_ListPrice": 1950.0,
+    "USD_Price": 1450.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-Q-ST",
+    "USD_ListPrice": 2050.0,
+    "USD_Price": 1550.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-QS-LP",
+    "USD_ListPrice": 2225.0,
+    "USD_Price": 1725.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-QS-MO",
+    "USD_ListPrice": 1950.0,
+    "USD_Price": 1450.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-QS-ST",
+    "USD_ListPrice": 2150.0,
+    "USD_Price": 1650.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-T-LP",
+    "USD_ListPrice": 1575.0,
+    "USD_Price": 1075.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-T-MO",
+    "USD_ListPrice": 1395.0,
+    "USD_Price": 895.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-124-SIM2RC",
+    "InvtID": "JW-124-SIM2RC-T-ST",
+    "USD_ListPrice": 1495.0,
+    "USD_Price": 995.0,
+    "stkItem": 0,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-136-01-WH",
+    "InvtID": "JW-136-01-WH-K",
+    "USD_ListPrice": 329.0,
+    "USD_Price": 246.75,
+    "stkItem": 1,
+    "qtyAvail": 1.0
+  },
+  {
+    "ItemID": "JW-136-01-WH",
+    "InvtID": "JW-136-01-WH-Q",
+    "USD_ListPrice": 279.0,
+    "USD_Price": 209.25,
+    "stkItem": 1,
+    "qtyAvail": 11.0
+  },
+  {
+    "ItemID": "JW-136-01-WH-SET",
+    "InvtID": "JW-136-01-WH-SET-K",
+    "USD_ListPrice": 428.0,
+    "USD_Price": 321.0,
+    "stkItem": 1,
+    "qtyAvail": 1.0
+  },
+  {
+    "ItemID": "JW-136-01-WH-SET",
+    "InvtID": "JW-136-01-WH-SET-Q",
+    "USD_ListPrice": 368.0,
+    "USD_Price": 276.0,
+    "stkItem": 1,
+    "qtyAvail": 11.0
+  },
+  {
+    "ItemID": "JW-136-02-WH",
+    "InvtID": "JW-136-02-WH-K",
+    "USD_ListPrice": 289.0,
+    "USD_Price": 216.75,
+    "stkItem": 1,
+    "qtyAvail": 1.0
+  },
+  {
+    "ItemID": "JW-136-02-WH",
+    "InvtID": "JW-136-02-WH-Q",
+    "USD_ListPrice": 259.0,
+    "USD_Price": 194.25,
+    "stkItem": 1,
+    "qtyAvail": 12.0
+  },
+  {
+    "ItemID": "JW-136-WH-G",
+    "InvtID": "JW-136-WH-G-K",
+    "USD_ListPrice": 299.0,
+    "USD_Price": 224.25,
+    "stkItem": 1,
+    "qtyAvail": 8.0
+  },
+  {
+    "ItemID": "JW-136-WH-G",
+    "InvtID": "JW-136-WH-G-Q",
+    "USD_ListPrice": 269.0,
+    "USD_Price": 201.75,
+    "stkItem": 1,
+    "qtyAvail": 13.0
+  },
+  {
+    "ItemID": "JW-136-WH-P",
+    "InvtID": "JW-136-WH-P-K",
+    "USD_ListPrice": 299.0,
+    "USD_Price": 224.25,
+    "stkItem": 1,
+    "qtyAvail": 13.0
+  },
+  {
+    "ItemID": "JW-136-WH-P",
+    "InvtID": "JW-136-WH-P-Q",
+    "USD_ListPrice": 269.0,
+    "USD_Price": 201.75,
+    "stkItem": 1,
+    "qtyAvail": 3.0
+  },
+  {
+    "ItemID": "JW-171-01",
+    "InvtID": "JW-171-01-CR",
+    "USD_ListPrice": 450.0,
+    "USD_Price": 315.0,
+    "stkItem": 1,
+    "qtyAvail": 1.0
+  },
+  {
+    "ItemID": "JW-171-01",
+    "InvtID": "JW-171-01-GY",
+    "USD_ListPrice": 450.0,
+    "USD_Price": 315.0,
+    "stkItem": 1,
+    "qtyAvail": 0.0
+  },
+  {
+    "ItemID": "JW-171-02",
+    "InvtID": "JW-171-02-BG",
+    "USD_ListPrice": 195.0,
+    "USD_Price": 136.5,
+    "stkItem": 1,
+    "qtyAvail": 7.0
+  },
+  {
+    "ItemID": "JW-171-02",
+    "InvtID": "JW-171-02-CA",
+    "USD_ListPrice": 195.0,
+    "USD_Price": 136.5,
+    "stkItem": 1,
+    "qtyAvail": 7.0
+  },
+  {
+    "ItemID": "JW-171-02-01",
+    "InvtID": "JW-171-02-01-BL",
+    "USD_ListPrice": 330.0,
+    "USD_Price": 231.0,
+    "stkItem": 1,
+    "qtyAvail": 5.0
+  },
+  {
+    "ItemID": "JW-171-02-01",
+    "InvtID": "JW-171-02-01-CC",
+    "USD_ListPrice": 330.0,
+    "USD_Price": 231.0,
+    "stkItem": 1,
+    "qtyAvail": 6.0
+  },
+  {
+    "ItemID": "JW-171-02-01",
+    "InvtID": "JW-171-02-01-NA",
+    "USD_ListPrice": 330.0,
+    "USD_Price": 231.0,
+    "stkItem": 1,
+    "qtyAvail": 3.0
+  },
+  {
+    "ItemID": "JW-171-03",
+    "InvtID": "JW-171-03-BL",
+    "USD_ListPrice": 195.0,
+    "USD_Price": 136.5,
+    "stkItem": 1,
+    "qtyAvail": 7.0
+  },
+  {
+    "ItemID": "JW-171-03",
+    "InvtID": "JW-171-03-RB",
+    "USD_ListPrice": 195.0,
+    "USD_Price": 136.5,
+    "stkItem": 1,
+    "qtyAvail": 7.0
+  },
+  {
+    "ItemID": "JW-171-04-NV",
+    "InvtID": "JW-171-04-NV",
+    "USD_ListPrice": 195.0,
+    "USD_Price": 136.5,
+    "stkItem": 1,
+    "qtyAvail": 5.0
+  },
+  {
+    "ItemID": "JW-216-WH",
+    "InvtID": "JW-216-WH-E",
+    "USD_ListPrice": 79.0,
+    "USD_Price": 59.25,
+    "stkItem": 1,
+    "qtyAvail": 7.0
+  },
+  {
+    "ItemID": "JW-216-WH",
+    "InvtID": "JW-216-WH-K",
+    "USD_ListPrice": 99.0,
+    "USD_Price": 74.25,
+    "stkItem": 1,
+    "qtyAvail": 7.0
+  },
+  {
+    "ItemID": "JW-216-WH",
+    "InvtID": "JW-216-WH-SQ",
+    "USD_ListPrice": 89.0,
+    "USD_Price": 66.75,
+    "stkItem": 1,
+    "qtyAvail": 17.0
+  },
+  {
+    "ItemID": "JW-218-01-WH",
+    "InvtID": "JW-218-01-WH-K",
+    "USD_ListPrice": 378.0,
+    "USD_Price": 283.5,
+    "stkItem": 1,
+    "qtyAvail": 7.0
+  },
+  {
+    "ItemID": "JW-218-01-WH",
+    "InvtID": "JW-218-01-WH-Q",
+    "USD_ListPrice": 338.0,
+    "USD_Price": 253.5,
+    "stkItem": 1,
+    "qtyAvail": 17.0
+  },
+  {
+    "ItemID": "JW-243-WH",
+    "InvtID": "JW-243-WH-K",
+    "USD_ListPrice": 119.0,
+    "USD_Price": 89.25,
+    "stkItem": 1,
+    "qtyAvail": 59.0
+  },
+  {
+    "ItemID": "JW-243-WH",
+    "InvtID": "JW-243-WH-Q",
+    "USD_ListPrice": 99.0,
+    "USD_Price": 74.25,
+    "stkItem": 1,
+    "qtyAvail": 48.0
+  },
+  {
+    "ItemID": "JW-244-WH",
+    "InvtID": "JW-244-WH-CK",
+    "USD_ListPrice": 119.0,
+    "USD_Price": 89.25,
+    "stkItem": 1,
+    "qtyAvail": 30.0
+  },
+  {
+    "ItemID": "JW-244-WH",
+    "InvtID": "JW-244-WH-K",
+    "USD_ListPrice": 119.0,
+    "USD_Price": 89.25,
+    "stkItem": 1,
+    "qtyAvail": 79.0
+  },
+  {
+    "ItemID": "JW-244-WH",
+    "InvtID": "JW-244-WH-Q",
+    "USD_ListPrice": 99.0,
+    "USD_Price": 74.25,
+    "stkItem": 1,
+    "qtyAvail": 68.0
+  },
+  {
+    "ItemID": "JW-245-WH",
+    "InvtID": "JW-245-WH-K",
+    "USD_ListPrice": 99.0,
+    "USD_Price": 74.25,
+    "stkItem": 1,
+    "qtyAvail": 214.0
+  },
+  {
+    "ItemID": "JW-245-WH",
+    "InvtID": "JW-245-WH-SQ",
+    "USD_ListPrice": 89.0,
+    "USD_Price": 66.75,
+    "stkItem": 1,
+    "qtyAvail": 103.0
+  },
+  {
+    "ItemID": "JW-246-WH",
+    "InvtID": "JW-246-WH-K",
+    "USD_ListPrice": 279.0,
+    "USD_Price": 209.25,
+    "stkItem": 1,
+    "qtyAvail": 17.0
+  },
+  {
+    "ItemID": "JW-246-WH",
+    "InvtID": "JW-246-WH-Q",
+    "USD_ListPrice": 249.0,
+    "USD_Price": 186.75,
+    "stkItem": 1,
+    "qtyAvail": 24.0
+  },
+  {
+    "ItemID": "JW-248-WH",
+    "InvtID": "JW-248-WH-CK",
+    "USD_ListPrice": 337.0,
+    "USD_Price": 252.75,
+    "stkItem": 1,
+    "qtyAvail": 3.0
+  },
+  {
+    "ItemID": "JW-248-WH",
+    "InvtID": "JW-248-WH-K",
+    "USD_ListPrice": 337.0,
+    "USD_Price": 252.75,
+    "stkItem": 1,
+    "qtyAvail": 59.0
+  },
+  {
+    "ItemID": "JW-248-WH",
+    "InvtID": "JW-248-WH-Q",
+    "USD_ListPrice": 287.0,
+    "USD_Price": 215.25,
+    "stkItem": 1,
+    "qtyAvail": 48.0
+  },
+  {
+    "ItemID": "JW-300SS-B",
+    "InvtID": "JW-300SS-B",
+    "USD_ListPrice": 14.99,
+    "USD_Price": 11.99,
+    "stkItem": 1,
+    "qtyAvail": 71.0
+  },
+  {
+    "ItemID": "JW-300SS-F",
+    "InvtID": "JW-300SS-F",
+    "USD_ListPrice": 13.99,
+    "USD_Price": 11.19,
+    "stkItem": 1,
+    "qtyAvail": 29.0
+  },
+  {
+    "ItemID": "JW-301-AA-10",
+    "InvtID": "JW-301-AA-10",
+    "USD_ListPrice": 39.99,
+    "USD_Price": 31.99,
+    "stkItem": 1,
+    "qtyAvail": 146.0
+  },
+  {
+    "ItemID": "JW-302-AA-10",
+    "InvtID": "JW-302-AA-10",
+    "USD_ListPrice": 39.99,
+    "USD_Price": 31.99,
+    "stkItem": 1,
+    "qtyAvail": 163.0
+  },
+  {
+    "ItemID": "JW-303-AA-10",
+    "InvtID": "JW-303-AA-10",
+    "USD_ListPrice": 28.99,
+    "USD_Price": 23.19,
+    "stkItem": 1,
+    "qtyAvail": 182.0
+  },
+  {
+    "ItemID": "JW-304-AA-10",
+    "InvtID": "JW-304-AA-10",
+    "USD_ListPrice": 28.99,
+    "USD_Price": 23.19,
+    "stkItem": 1,
+    "qtyAvail": 85.0
+  },
+  {
+    "ItemID": "JW-305-REV-MRN",
+    "InvtID": "JW-305-REV-MRN",
+    "USD_ListPrice": 63.0,
+    "USD_Price": 50.4,
+    "stkItem": 1,
+    "qtyAvail": 71.0
+  },
+  {
+    "ItemID": "JW-307-AA-BC-10",
+    "InvtID": "JW-307-AA-BC-10",
+    "USD_ListPrice": 79.98,
+    "USD_Price": 59.95,
+    "stkItem": 1,
+    "qtyAvail": 25.0
+  },
+  {
+    "ItemID": "JW-307-AA-HC-10",
+    "InvtID": "JW-307-AA-HC-10",
+    "USD_ListPrice": 57.98,
+    "USD_Price": 43.95,
+    "stkItem": 1,
+    "qtyAvail": 224.0
+  },
+  {
+    "ItemID": "JW-308-AA-10",
+    "InvtID": "JW-308-AA-10",
+    "USD_ListPrice": 137.96,
+    "USD_Price": 99.99,
+    "stkItem": 1,
+    "qtyAvail": 51.0
+  },
+  {
+    "ItemID": "JW-309-AA",
+    "InvtID": "JW-309-AA",
+    "USD_ListPrice": 38.0,
+    "USD_Price": 30.4,
+    "stkItem": 1,
+    "qtyAvail": 90.0
+  },
+  {
+    "ItemID": "JW-309-AA-SUB",
+    "InvtID": "JW-309-AA-SUB",
+    "USD_ListPrice": 38.0,
+    "USD_Price": 27.99,
+    "stkItem": 1,
+    "qtyAvail": 90.0
+  },
+  {
+    "ItemID": "JW-310-PT-WL",
+    "InvtID": "JW-310-PT-WL",
+    "USD_ListPrice": 49.0,
+    "USD_Price": 39.2,
+    "stkItem": 1,
+    "qtyAvail": 18.0
+  },
+  {
+    "ItemID": "JW-403",
+    "InvtID": "JW-403-BE-NL",
+    "USD_ListPrice": 115.0,
+    "USD_Price": 92.0,
+    "stkItem": 1,
+    "qtyAvail": 37.0
+  },
+  {
+    "ItemID": "JW-403",
+    "InvtID": "JW-403-WH-NL",
+    "USD_ListPrice": 115.0,
+    "USD_Price": 92.0,
+    "stkItem": 1,
+    "qtyAvail": 34.0
+  },
+  {
+    "ItemID": "JW-403-DWS-NL",
+    "InvtID": "JW-403-DWS-NL",
+    "USD_ListPrice": 115.0,
+    "USD_Price": 92.0,
+    "stkItem": 1,
+    "qtyAvail": 39.0
+  },
+  {
+    "ItemID": "JW-404",
+    "InvtID": "JW-404-NL-WH-OSFM",
+    "USD_ListPrice": 115.0,
+    "USD_Price": 92.0,
+    "stkItem": 1,
+    "qtyAvail": 27.0
+  },
+  {
+    "ItemID": "JW-404",
+    "InvtID": "JW-404-WL-WH-OSFM",
+    "USD_ListPrice": 115.0,
+    "USD_Price": 92.0,
+    "stkItem": 1,
+    "qtyAvail": 61.0
+  },
+  {
+    "ItemID": "JW-456-01-PK",
+    "InvtID": "JW-456-01-PK-LG",
+    "USD_ListPrice": 18.0,
+    "USD_Price": 14.4,
+    "stkItem": 1,
+    "qtyAvail": 20.0
+  },
+  {
+    "ItemID": "JW-456-01-PK",
+    "InvtID": "JW-456-01-PK-MD",
+    "USD_ListPrice": 18.0,
+    "USD_Price": 14.4,
+    "stkItem": 1,
+    "qtyAvail": 48.0
+  },
+  {
+    "ItemID": "JW-600-01-01-01-10",
+    "InvtID": "JW-600-01-01-01-10",
+    "USD_ListPrice": 59.0,
+    "USD_Price": 44.25,
+    "stkItem": 1,
+    "qtyAvail": 85.0
+  },
+  {
+    "ItemID": "JW-600-01-SPA-WL-11",
+    "InvtID": "JW-600-01-SPA-WL-11",
+    "USD_ListPrice": 59.0,
+    "USD_Price": 44.25,
+    "stkItem": 1,
+    "qtyAvail": 25.0
+  },
+  {
+    "ItemID": "JW-605-02-02-BK-WL-3",
+    "InvtID": "JW-605-02-02-BK-WL-3",
+    "USD_ListPrice": 54.0,
+    "USD_Price": 40.5,
+    "stkItem": 1,
+    "qtyAvail": 11.0
+  },
+  {
+    "ItemID": "JW-606-01-SPA-WL-3",
+    "InvtID": "JW-606-01-SPA-WL-3",
+    "USD_ListPrice": 59.0,
+    "USD_Price": 44.25,
+    "stkItem": 1,
+    "qtyAvail": 51.0
+  },
+  {
+    "ItemID": "JW-610-SPA",
+    "InvtID": "JW-610-SPA",
+    "USD_ListPrice": 169.95,
+    "USD_Price": 127.46,
+    "stkItem": 1,
+    "qtyAvail": 31.0
+  },
+  {
+    "ItemID": "JW-610-SS",
+    "InvtID": "JW-610-SS",
+    "USD_ListPrice": 169.95,
+    "USD_Price": 127.46,
+    "stkItem": 1,
+    "qtyAvail": 39.0
+  },
+  {
+    "ItemID": "JW-611-SPA",
+    "InvtID": "JW-611-SPA",
+    "USD_ListPrice": 69.95,
+    "USD_Price": 52.46,
+    "stkItem": 1,
+    "qtyAvail": 24.0
+  },
+  {
+    "ItemID": "JW-611-SS",
+    "InvtID": "JW-611-SS",
+    "USD_ListPrice": 69.95,
+    "USD_Price": 52.46,
+    "stkItem": 1,
+    "qtyAvail": 105.0
+  }
+]

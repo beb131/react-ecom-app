@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import "./index.scss";
 import CartItems from "../CartItems/index";
-import { CartContext } from "../../App";
+import { CartContext } from "../../../App";
 import { Link } from "react-router-dom";
 
-export default function Cart() {
+export default function CartPage() {
   const cart = useContext(CartContext);
   const cartProducts = cart.cartProducts;
   let cartList = [];

@@ -2,9 +2,9 @@ import React, { useContext } from "react";
 import "./index.scss";
 import ProductCard from "../ProductCard/index";
 // import SingleProduct from "../SingleProduct/index";
-import { ProductContext, CartContext } from "../../App";
+import { ProductContext, CartContext } from "../../../App";
 
-export default function Products(props) {
+export default function ProductList(props) {
   const products = useContext(ProductContext);
   const cart = useContext(CartContext);
 

@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
+import ProductContext from "../../../App";
 import "./index.scss";
 
 export default function SingleProduct(props) {
+  const products = useContext(ProductContext);
+  console.log(products);
+  // const product = products.filter(item => {
+  //   return item.ProductURL === props.match.params;
+  // });
+
+  // console.log("Product", product);
   return (
     <>
       <div className="card" key={props.id}>

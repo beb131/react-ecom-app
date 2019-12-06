@@ -5,9 +5,10 @@ import "bulma/css/bulma.css";
 import "./scss/styles.scss";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router } from "react-router-dom";
+import browserHistory from "./browserHistory";
 
 ReactDOM.render(
-  <Router>
+  <Router history={browserHistory}>
     <App />
   </Router>,
   document.getElementById("root")

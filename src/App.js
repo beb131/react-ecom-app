@@ -1,4 +1,5 @@
-import React, { useState, useReducer, useEffect } from "react";
+import React, { useState, useReducer, createContext } from "react";
+import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import "./scss/styles.scss";
 
@@ -8,41 +9,28 @@ import Checkout from "./components/Checkout/index";
 import Contact from "./components/Contact/index";
 import Shop from "./components/Shop/index";
 import Footer from "./components/Footer/index";
-import { Route, Switch } from "react-router-dom";
-import SingleProduct from "./components/SingleProduct";
-import Cart from "./components/Cart/index";
+import SingleProduct from "./components/Products/SingleProduct/index";
+import Category from "./components/Categories/Category/index";
+import CartPage from "./components/Cart/CartPage/index";
 // import CartItems from "./components/CartItems/index";
 
 // Reducers
 import cartReducer from "./reducers/cartReducer";
 
-// Test Products
-import initialProducts from "./context/initialProducts";
-import initialCart from "./context/initialCart";
+// Sample Data
+import categories from "./data/Categories.json";
+import products from "./data/Items.json";
+import productCategories from "./data/ItemCategories.json";
 
-export const ProductContext = React.createContext(initialProducts);
-export const CartContext = React.createContext(initialCart);
+// Context
+export const CategoryContext = createContext(categories);
+export const ProductContext = createContext(products);
+export const ProductCatContext = createContext(productCategories);
+export const CartContext = createContext([]);
 
 function App() {
-  const [cartState, setCartState] = useState(initialCart);
+  const [cartState, setCartState] = useState([]);
   const [cartProducts, dispatchCart] = useReducer(cartReducer, cartState);
-
-  // https://overreacted.io/a-complete-guide-to-useeffect/
-  //
-  // https://medium.com/@cwlsn/how-to-fetch-data-with-react-hooks-in-a-minute-e0f9a15a44d6
-  //
-  // useEffect(async () => {
-  //   const result = await axios(
-  //     "https://hn.algolia.com/api/v1/search?query=redux"
-  //   );
-  //   setData(result.data);
-  // });
-
-  const categories = useEffect(() => {
-    fetch("data/Categories.json").then(data => {
-      console.log(data);
-    });
-  });
 
   const handleAddToCart = product => {
     setCartState(
@@ -63,31 +51,36 @@ function App() {
 
   return (
     <div className="App">
-      <Hero />
-      <ProductContext.Provider value={initialProducts}>
-        <CartContext.Provider
-          value={{
-            cartProducts,
-            handleAddToCart,
-            handleRemoveFromCart,
-            handleClearCart
-          }}
-        >
-          <Switch>
-            <Route exact path="/" component={Shop} />
-            <Route exact path="/products/" component={Shop} />
-            <Route exact path="/shop/" component={Shop} />
-            <Route exact path="/cart/" component={Cart} />
-            <Route exact path="/checkout/" component={Checkout} />
-            <Route exact path="/contact/" component={Contact} />
-            <Route
-              path="/products/:id"
-              render={product => <SingleProduct {...product} />}
-            />
-            <Route>{"404"}</Route>
-          </Switch>
-        </CartContext.Provider>
-      </ProductContext.Provider>
+      <CategoryContext.Provider value={categories}>
+        <ProductCatContext.Provider value={productCategories}>
+          <ProductContext.Provider value={products}>
+            {/* <CartContext.Provider
+            value={{
+              // cartProducts,
+              handleAddToCart,
+              handleRemoveFromCart,
+              handleClearCart
+            }}
+          > */}
+            <Hero />
+            <Switch>
+              <Route exact path="/" component={Shop} />
+              <Route exact path="/products/" component={Shop} />
+              <Route exact path="/shop/" component={Shop} />
+              <Route exact path="/cart/" component={CartPage} />
+              <Route exact path="/checkout/" component={Checkout} />
+              <Route exact path="/contact/" component={Contact} />
+              <Route path="/products/:id" component={SingleProduct} />
+              <Route
+                path="/category/:id"
+                render={category => <Category {...category} />}
+              />
+              <Route>{"404"}</Route>
+            </Switch>
+            {/* </CartContext.Provider> */}
+          </ProductContext.Provider>
+        </ProductCatContext.Provider>
+      </CategoryContext.Provider>
       <Footer />
     </div>
   );

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Nav from "../Nav/index";
 
 import "./index.scss";
 
@@ -31,8 +32,9 @@ export default class Hero extends Component {
                     <Link to="/" className="navbar-item is-active">
                       Home
                     </Link>
-                    <Link to="/cart" className="navbar-item is-active">
-                      <span>Cart</span>
+                    <Nav />
+                    <Link to="/cart" className="navbar-item">
+                      Cart
                     </Link>
                   </div>
                 </div>
@@ -51,24 +53,7 @@ export default class Hero extends Component {
             <nav className="tabs is-boxed is-fullwidth">
               <div className="container">
                 <ul>
-                  <li className="is-active">
-                    <Link to="#">Overview</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Modifiers</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Grid</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Elements</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Components</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Layout</Link>
-                  </li>
+                  <Nav />
                 </ul>
               </div>
             </nav>
