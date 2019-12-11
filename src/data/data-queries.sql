@@ -13,6 +13,10 @@ WHERE i.CatalogID = 'JW'
 ORDER BY categoryID, CategoryLevel, SortIndex ASC;
 
 -- Items
+-- AFTER GENERATING JSON
+-- REGEX to add extensions object:
+-- Search: (("Extension1")(.*\n)+?)(\s+"RN")
+-- Replace: "extensions": {\n$1},\n$4 
 DECLARE 
     @columns NVARCHAR(MAX) = '', 
     @sql     NVARCHAR(MAX) = '',
@@ -134,15 +138,17 @@ ORDER BY ItemID ASC;
 SELECT LTRIM(RTRIM(iext.ItemID)) AS ItemID,
 	 LTRIM(RTRIM(iext.ExtensionGroupID)) AS ExtensionGroupID,
 	 LTRIM(RTRIM(ext.ExtensionID)) AS ExtensionID,
+     LTRIM(RTRIM(extg.Name)) AS ExtensionName,
 	 ext.ExtensionCode, 
-     ext.Name, 
-     ext.Descr, 
+     ext.Name AS ExtensionCodeName, 
+     ext.Descr AS ExtensionDescr, 
      iext.sortIndex AS ExtensionOrder,
-	 ext.SortIndex
-	AS OptionOrder
+	 ext.SortIndex AS OptionOrder
 FROM xCTItemExtensions iext
 INNER JOIN xCTExtensions ext
 	ON iext.ExtensionGroupID = ext.ExtensionGroupID
+INNER JOIN xCTExtensionGroup extg
+    ON ext.ExtensionGroupID = extg.extensionGroupID
 INNER JOIN xCTItems i
 	ON iext.ItemID = i.ItemID
 WHERE iext.CatalogID = 'JW'

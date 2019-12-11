@@ -56,6 +56,62 @@
     "SortIndex": 8
   },
   {
+    "ItemID": "JW-101-LS-01-WH",
+    "Name": "Angles Linen Set",
+    "categoryID": "AnglesLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-136-01-WH-SET",
+    "Name": "Angles Duvet Cover & Shams Set",
+    "categoryID": "AnglesLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-106-01-WH",
+    "Name": "Angles Sheet Set",
+    "categoryID": "AnglesLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-116-01-WH",
+    "Name": "Angles Pillow Shams",
+    "categoryID": "AnglesLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 4
+  },
+  {
+    "ItemID": "JW-136-01-WH",
+    "Name": "Angles Duvet Cover",
+    "categoryID": "AnglesLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 5
+  },
+  {
+    "ItemID": "JW-105-01-WH",
+    "Name": "Angles Pillowcases",
+    "categoryID": "AnglesLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 6
+  },
+  {
+    "ItemID": "JW-103-01-WH",
+    "Name": "Angles Flat Sheet",
+    "categoryID": "AnglesLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 7
+  },
+  {
+    "ItemID": "JW-104-WH",
+    "Name": "Hotel Fitted Sheet",
+    "categoryID": "AnglesLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 8
+  },
+  {
     "ItemID": "JW-308-AA-10",
     "Name": "Ylang Ylang Hair & Skincare Set",
     "categoryID": "BathBody",
@@ -266,6 +322,55 @@
     "SortIndex": 7
   },
   {
+    "ItemID": "JW-218-01-WH",
+    "Name": "Embroidered Duvet Cover & Shams Set",
+    "categoryID": "EmbroideredLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-246-WH",
+    "Name": "Embroidered Duvet Cover",
+    "categoryID": "EmbroideredLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-216-WH",
+    "Name": "Embroidered Pillow Shams",
+    "categoryID": "EmbroideredLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-248-WH",
+    "Name": "Embroidered Sheet Set",
+    "categoryID": "EmbroideredLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 4
+  },
+  {
+    "ItemID": "JW-245-WH",
+    "Name": "Embroidered Pillowcases",
+    "categoryID": "EmbroideredLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 5
+  },
+  {
+    "ItemID": "JW-243-WH",
+    "Name": "Embroidered Flat Sheet",
+    "categoryID": "EmbroideredLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 6
+  },
+  {
+    "ItemID": "JW-244-WH",
+    "Name": "Embroidered Fitted Sheet",
+    "categoryID": "EmbroideredLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 7
+  },
+  {
     "ItemID": "JW-600-01-01-01-10",
     "Name": "Subtle Sophistication Candle",
     "categoryID": "Fragrance",
@@ -355,6 +460,69 @@
     "categoryID": "GeoLinenCollection",
     "CategoryLevel": 2,
     "SortIndex": 5
+  },
+  {
+    "ItemID": "JW-101-LS-GEO",
+    "Name": "Geo Linen Set",
+    "categoryID": "GeoLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-136-WH-G",
+    "Name": "Geo Duvet Cover",
+    "categoryID": "GeoLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-105-WH-G",
+    "Name": "Geo Pillowcases",
+    "categoryID": "GeoLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-103-WH-D",
+    "Name": "Dune Flat Sheet",
+    "categoryID": "GeoLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 4
+  },
+  {
+    "ItemID": "JW-104-WH",
+    "Name": "Hotel Fitted Sheet",
+    "categoryID": "GeoLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 5
+  },
+  {
+    "ItemID": "JW-106-WH",
+    "Name": "Hotel Sheet Set",
+    "categoryID": "HotelSheetsLink",
+    "CategoryLevel": 2,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-105-WH",
+    "Name": "Hotel Pillowcases",
+    "categoryID": "HotelSheetsLink",
+    "CategoryLevel": 2,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-103-WH",
+    "Name": "Hotel Flat Sheet",
+    "categoryID": "HotelSheetsLink",
+    "CategoryLevel": 2,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-104-WH",
+    "Name": "Hotel Fitted Sheet",
+    "categoryID": "HotelSheetsLink",
+    "CategoryLevel": 2,
+    "SortIndex": 4
   },
   {
     "ItemID": "JW-106-WH",
@@ -591,6 +759,41 @@
     "ItemID": "JW-104-WH",
     "Name": "Hotel Fitted Sheet",
     "categoryID": "PiscesLinenCollection",
+    "CategoryLevel": 2,
+    "SortIndex": 5
+  },
+  {
+    "ItemID": "JW-101-LS-PIS",
+    "Name": "Pisces Linen Set",
+    "categoryID": "PiscesLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 1
+  },
+  {
+    "ItemID": "JW-136-WH-P",
+    "Name": "Pisces Duvet Cover",
+    "categoryID": "PiscesLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 2
+  },
+  {
+    "ItemID": "JW-105-WH-P",
+    "Name": "Pisces Pillowcases",
+    "categoryID": "PiscesLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 3
+  },
+  {
+    "ItemID": "JW-103-WH-T",
+    "Name": "Striped Flat Sheet",
+    "categoryID": "PiscesLinenCollectionLink",
+    "CategoryLevel": 2,
+    "SortIndex": 4
+  },
+  {
+    "ItemID": "JW-104-WH",
+    "Name": "Hotel Fitted Sheet",
+    "categoryID": "PiscesLinenCollectionLink",
     "CategoryLevel": 2,
     "SortIndex": 5
   },

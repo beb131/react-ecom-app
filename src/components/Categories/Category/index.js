@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import "./index.scss";
 import CategoryCard from "../CategoryCard/index";
 import ProductCard from "../../Products/ProductCard/index";

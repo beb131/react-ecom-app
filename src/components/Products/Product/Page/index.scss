@@ -1,0 +1,13 @@
+#single_product {
+  display: flex !important;
+  flex-flow: row wrap;
+  #product_sidebar {
+    flex-basis: 20%;
+  }
+  #product_info {
+    flex-basis: 45%;
+  }
+  #product_atc {
+    flex-basis: 35%;
+  }
+}

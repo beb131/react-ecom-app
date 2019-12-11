@@ -1,5 +1,12 @@
 const cartReducer = (cartProducts, action) => {
   switch (action.type) {
+    // case "GET_INVTID":
+    //   console.log(action);
+    //   console.log(action.ItemID);
+    //   console.log(action.extensions);
+    //   return action.type === "P"
+    //     ? action.ItemID
+    //     : action.ItemID + action.extensions.Extension1;
     case "ADD_TO_CART":
       return [...cartProducts, action.product];
     case "REMOVE_FROM_CART":

@@ -24,10 +24,16 @@ export default function ProductCard(props) {
     e.target.innerHTML = "Added To Cart - $20.00";
     props.handleAddToCart(product);
   };
+
   return (
     <>
       <div className="card ">
-        <Link to={`/products/${ProductURL}`}>
+        <Link
+          to={{
+            pathname: `/products/${ProductURL}`,
+            state: { product: props.product }
+          }}
+        >
           <div className="card-image">
             <figure className="image is-4by3">
               <img src={Image} alt="Placeholder" />
