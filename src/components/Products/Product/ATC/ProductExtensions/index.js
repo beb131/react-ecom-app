@@ -24,6 +24,10 @@ export default function ProductExtensions(props) {
     // Also need to control the order they're concatenating in.
     // Currently, fist set selection is the first extension in state
     // Maybe set state using extensionObj before handleChange can get called
+    // State Lifting: https://reactjs.org/docs/lifting-state-up.html
+    // State Lifting with Hooks: https://codesandbox.io/s/oq587qpno9?from-embed
+    // Article used to set up selects with state: https://www.pluralsight.com/guides/handling-multiple-inputs-with-single-onchange-handler-react
+
     const str = Object.values(state).join("");
     console.log("str", str);
     // setInvtID()

@@ -15,15 +15,15 @@
 
 - <s>Setup Hooks</s>
 - <s>Setup Routing</s>
-- Create single product page
+- <s>Create single product page</s>
 - Create Quantity Selector
-- Allow for Item Extensions
+- <s>Allow for Item Extensions</s>
 - Add Description and Product Info
 - Create ATC Confirmation Modal
   - View Cart Button
   - Checkout Button
   - Price/Quantity/Item Review
-- Replace Product Card with Category Card
+- <s>Replace Product Card with Category Card</s>
   - Link to category unless there is only one product in category
 - Format Cart
   - Quantity Update
