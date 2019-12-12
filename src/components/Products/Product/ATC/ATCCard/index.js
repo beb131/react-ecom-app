@@ -1,23 +1,11 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./index.scss";
 import ATCButton from "../ATCButton/index";
 import ProductExtensions from "../ProductExtensions/index";
 import ProductPricing from "../ProductPricing/index";
-import { ExtensionContext } from "../../../../../App";
 
 export default function ATCCard(props) {
   const { ItemName, type, ItemID } = props;
-
-  const allExtensions = useContext(ExtensionContext);
-
-  const extensions = allExtensions.filter(extension => {
-    return extension.ItemID === ItemID;
-  });
-
-  const extensionGroups = [
-    ...new Set(extensions.map(extension => extension.ExtensionGroupID))
-  ];
-  console.log(extensionGroups);
 
   // Reducer creates extensions
   // Reducer references InventoryContext to get price
@@ -35,7 +23,7 @@ export default function ATCCard(props) {
             </div>
           </div>
           <div className="content">
-            {type === "PG" && <ProductExtensions />}
+            {type === "PG" && <ProductExtensions ItemID={ItemID} />}
             <ATCButton ItemID={ItemID} />
           </div>
         </div>

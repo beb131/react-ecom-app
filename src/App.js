@@ -29,7 +29,6 @@ export const ProductContext = createContext(products);
 export const ProductCatContext = createContext(productCategories);
 export const InventoryContext = createContext(inventory);
 export const ExtensionContext = createContext(extensions);
-console.log(extensions);
 export const CartContext = createContext([]);
 
 function App() {
