@@ -3,7 +3,7 @@ import "./index.scss";
 import { CartContext } from "../../../../../App";
 
 export default function ATCButton(props) {
-  const { ItemID, extensions } = props;
+  const { InvtID } = props;
   const cart = useContext(CartContext);
 
   const handleClick = (product, e) => {
@@ -15,7 +15,7 @@ export default function ATCButton(props) {
     <>
       <button
         className="button is-link"
-        onClick={handleClick.bind(this, ItemID)}
+        onClick={handleClick.bind(this, InvtID)}
       >
         Add To Cart
       </button>

@@ -1,13 +1,34 @@
 import React, { useContext } from "react";
 import "./index.scss";
 import CartItems from "../CartItems/index";
-import { CartContext } from "../../../App";
+import { CartContext, ProductContext, InventoryContext } from "../../../App";
 import { Link } from "react-router-dom";
 
 export default function CartPage() {
+  const products = useContext(ProductContext);
   const cart = useContext(CartContext);
-  const cartProducts = cart.cartProducts;
+  const inventory = useContext(InventoryContext);
+  // Filter InvtIDs with cartProducts
+  // Filter products with invtproducts
+  // Pass both filtered products and filtered InvtIds to CartItems
+
+  // This filter isn't working
+  console.log(cart.cartProducts);
+  const cartInvts = inventory.filter(item => {
+    cart.cartProducts.forEach(cartProduct => {
+      return item.InvtID === cartProduct.InvtID;
+    });
+  });
+
+  console.log("CartProducts", cart.cartProducts);
+  console.log("Cart Invts", cartInvts);
+
+  const cartProducts = [];
+  // const cartProducts = cart.cartProducts;
+  // console.log("Products In cart", cartProducts);
+  // Prevent cartList from being undefined
   let cartList = [];
+
   if (cartProducts) {
     cartList = cartProducts.map(item => (
       <CartItems
