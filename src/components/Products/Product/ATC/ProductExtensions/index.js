@@ -18,7 +18,6 @@ export default function ProductExtensions(props) {
 
   const handleChange = e => {
     const value = e.target.value;
-    console.log(value);
 
     setState({
       ...state,
@@ -28,7 +27,7 @@ export default function ProductExtensions(props) {
 
   useEffect(() => {
     setInvtID(Object.values(state).join(""));
-  }, [state]);
+  }, [state, InvtID, setInvtID]);
 
   const allExtensions = useContext(ExtensionContext);
 
@@ -37,7 +36,7 @@ export default function ProductExtensions(props) {
   });
 
   let extensionObj = {};
-  console.log(extensions);
+
   extensions.forEach(extension => {
     extensionObj[extension.ExtensionName] = [];
     state[extension.ExtensionCodeName] = "";
@@ -59,7 +58,7 @@ export default function ProductExtensions(props) {
     return (
       <div className="select is-rounded" key={key}>
         <select name={name} onChange={handleChange} value={state[name]}>
-          <option>{key}</option>
+          <option value={""}>{key}</option>
           {extensionObj[key].map(ext => {
             return (
               <option key={ext.extensionCodeName} value={ext.extensionCode}>

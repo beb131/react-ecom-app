@@ -16,7 +16,7 @@ export default function ProductInfo(props) {
   } = props.product;
   return (
     <>
-      <img src={Image} />
+      <img src={Image} alt="Placeholder" />
       <div>{Description}</div>
       <div>{ItemDetails}</div>
     </>

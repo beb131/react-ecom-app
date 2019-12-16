@@ -32,16 +32,13 @@ export const ExtensionContext = createContext(extensions);
 export const CartContext = createContext([]);
 
 function App() {
-  const [cartState, setCartState] = useState([]);
-  const [cartProducts, dispatchCart] = useReducer(cartReducer, cartState);
+  const [cartProducts, dispatchCart] = useReducer(cartReducer, []);
 
   const handleAddToCart = product => {
-    setCartState(
-      dispatchCart({
-        type: "ADD_TO_CART",
-        product: product
-      })
-    );
+    dispatchCart({
+      type: "ADD_TO_CART",
+      product: product
+    });
   };
 
   const handleRemoveFromCart = product => {
@@ -61,7 +58,7 @@ function App() {
               <ExtensionContext.Provider value={extensions}>
                 <CartContext.Provider
                   value={{
-                    // cartProducts,
+                    cartProducts,
                     handleAddToCart,
                     handleRemoveFromCart,
                     handleClearCart

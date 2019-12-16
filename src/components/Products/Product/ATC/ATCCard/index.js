@@ -14,7 +14,7 @@ export default function ATCCard(props) {
   // Pass price to ProductPricing
   // Pass inventoryID to ATCButton
   // ATCButton Dispatches Action
-  console.log(InvtID);
+
   return (
     <>
       <div className="atc card">
@@ -25,13 +25,14 @@ export default function ATCCard(props) {
             </div>
           </div>
           <div className="content">
+            <ProductPricing InvtID={InvtID} ItemID={ItemID} />
             {type === "PG" && (
               <ProductExtensions
                 ItemID={ItemID}
                 state={{ InvtID: [InvtID, setInvtID] }}
               />
             )}
-            <ATCButton ItemID={ItemID} />
+            <ATCButton InvtID={InvtID} />
           </div>
         </div>
       </div>
