@@ -8,31 +8,30 @@ export default function CartPage() {
   const products = useContext(ProductContext);
   const cart = useContext(CartContext);
   const inventory = useContext(InventoryContext);
-  // Filter InvtIDs with cartProducts
   // Filter products with invtproducts
   // Pass both filtered products and filtered InvtIds to CartItems
 
-  // This filter isn't working
-  console.log(cart.cartProducts);
   const cartInvts = inventory.filter(item => {
-    cart.cartProducts.forEach(cartProduct => {
-      return item.InvtID === cartProduct.InvtID;
+    return cart.cartProducts.includes(item.InvtID);
+  });
+
+  const cartProducts = products.filter(product => {
+    return cartInvts.some(item => {
+      if (item.ItemID === product.ItemID) {
+        // Combine cartInvts with products in cartProducts
+        Object.assign(product, item);
+      }
+      return item.ItemID === product.ItemID;
     });
   });
 
-  console.log("CartProducts", cart.cartProducts);
-  console.log("Cart Invts", cartInvts);
-
-  const cartProducts = [];
-  // const cartProducts = cart.cartProducts;
-  // console.log("Products In cart", cartProducts);
   // Prevent cartList from being undefined
   let cartList = [];
 
   if (cartProducts) {
     cartList = cartProducts.map(item => (
       <CartItems
-        key={item.id}
+        key={item.ItemID}
         item={item}
         handleRemoveFromCart={cart.handleRemoveFromCart}
       />

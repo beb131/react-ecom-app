@@ -3,30 +3,31 @@ import "./index.scss";
 import { Link } from "react-router-dom";
 
 export default function CartItems(props) {
+  const { ItemID, InvtID, ItemName, Image, USD_Price, ProductURL } = props.item;
+  const { handleRemoveFromCart } = props;
   return (
     <>
-      <div className="card" key={props.item.id}>
-        <Link to={`/products/${props.item.id}`}>
+      <div className="card" key={ItemID}>
+        <Link to={`/products/${ProductURL}`}>
           <div className="card-image">
             <figure className="image is-4by3">
-              <img src={props.item.img} alt="Placeholder" />
+              <img src={Image} alt="Placeholder" />
             </figure>
           </div>
         </Link>
         <div className="card-content">
           <div className="media">
             <div className="media-content">
-              <Link to={`/products/${props.item.id}`}>
-                <p className="title is-4">{props.item.name}</p>
+              <Link to={`/products/${ProductURL}`}>
+                <p className="title is-4">{ItemName}</p>
               </Link>
             </div>
           </div>
           <div className="content">
-            <div className="excerpt">{props.item.excerpt}</div>
-            <div className="price"></div>
+            <div className="price">${USD_Price.toFixed(2)}</div>
             <button
               className="button is-danger"
-              onClick={props.handleRemoveFromCart.bind(this, props.item)}
+              onClick={handleRemoveFromCart.bind(this, InvtID)}
             >
               Remove From Cart
             </button>

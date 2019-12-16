@@ -8,11 +8,9 @@ const cartReducer = (cartProducts, action) => {
     //     ? action.ItemID
     //     : action.ItemID + action.extensions.Extension1;
     case "ADD_TO_CART":
-      console.log("ATC");
-      console.log(action);
-      return [...cartProducts, { InvtID: action.product }];
+      return [...cartProducts, action.product];
     case "REMOVE_FROM_CART":
-      return cartProducts.filter(item => item.id !== action.product.id);
+      return cartProducts.filter(item => item !== action.product);
     case "CLEAR_CART":
       return [];
     default:
