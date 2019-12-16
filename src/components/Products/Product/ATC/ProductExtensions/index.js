@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import "./index.scss";
 import { ExtensionContext } from "../../../../../App";
 
@@ -9,29 +9,26 @@ export default function ProductExtensions(props) {
     ItemID: ItemID
   });
 
+  const {
+    InvtID: [InvtID, setInvtID]
+  } = {
+    InvtID: useState(""),
+    ...(props.state || {})
+  };
+
   const handleChange = e => {
     const value = e.target.value;
     console.log(value);
+
     setState({
       ...state,
       [e.target.name]: value
     });
-
-    // Create state in ATCCard component. [InvtID, SetInvtID]
-    // Pass down to here as prop
-    // setInvtID(Object.values(state).join(""));
-    // Currently concatenating the ExtensionCodeName rather than extension code
-    // Also need to control the order they're concatenating in.
-    // Currently, fist set selection is the first extension in state
-    // Maybe set state using extensionObj before handleChange can get called
-    // State Lifting: https://reactjs.org/docs/lifting-state-up.html
-    // State Lifting with Hooks: https://codesandbox.io/s/oq587qpno9?from-embed
-    // Article used to set up selects with state: https://www.pluralsight.com/guides/handling-multiple-inputs-with-single-onchange-handler-react
-
-    const str = Object.values(state).join("");
-    console.log("str", str);
-    // setInvtID()
   };
+
+  useEffect(() => {
+    setInvtID(Object.values(state).join(""));
+  }, [state]);
 
   const allExtensions = useContext(ExtensionContext);
 
@@ -40,14 +37,19 @@ export default function ProductExtensions(props) {
   });
 
   let extensionObj = {};
-
+  console.log(extensions);
   extensions.forEach(extension => {
     extensionObj[extension.ExtensionName] = [];
+    state[extension.ExtensionCodeName] = "";
   });
+
   for (let [name, val] of Object.entries(extensionObj)) {
     for (let extension of extensions) {
       if (extension.ExtensionName === name) {
-        val.push(extension.ExtensionCodeName);
+        val.push({
+          extensionCodeName: extension.ExtensionCodeName,
+          extensionCode: extension.ExtensionCode
+        });
       }
     }
   }
@@ -59,7 +61,11 @@ export default function ProductExtensions(props) {
         <select name={name} onChange={handleChange} value={state[name]}>
           <option>{key}</option>
           {extensionObj[key].map(ext => {
-            return <option key={ext}>{ext}</option>;
+            return (
+              <option key={ext.extensionCodeName} value={ext.extensionCode}>
+                {ext.extensionCodeName}
+              </option>
+            );
           })}
         </select>
       </div>
