@@ -54,34 +54,37 @@ export default function ProductExtensions(props) {
     }
   }
 
+  console.log(extensionObj);
   const extensionList = Object.keys(extensionObj).map(function(key, i) {
     const name = key.replace(/ /g, "_");
-    console.log(key);
-    console.log(extensionObj);
-    for (let i = 1; i <= extensionObj.ExtensionOrder; i++) {
-      if (key.ExtensionOrder === i) {
-        return (
-          <div className="select is-rounded" key={key}>
-            <select name={name} onChange={handleChange} value={state[name]}>
-              <option value={""}>{key}</option>
-              {extensionObj[key].map(ext => {
-                for (let i = 1; i <= extensionObj[key].OptionOrder; i++) {
-                  if (ext.OptionOrder === i) {
-                    return (
-                      <option
-                        key={ext.extensionCodeName}
-                        value={ext.extensionCode}
-                      >
-                        {ext.extensionCodeName}
-                      </option>
-                    );
-                  }
+    console.log("key", key);
+    console.log("this extension", extensionObj[key][i]);
+    console.log("i", i);
+    if (extensionObj[key][i].extensionOrder === i + 1) {
+      console.log(key.ExtensionOrder);
+      return (
+        <div className="select is-rounded" key={key}>
+          <select name={name} onChange={handleChange} value={state[name]}>
+            <option value={""}>{key}</option>
+            {extensionObj[key].map(
+              ext => {
+                // for (let j = 1; j <= extensionObj[key][j].OptionOrder; i++) {
+                if (ext.OptionOrder === i) {
+                  return (
+                    <option
+                      key={ext.extensionCodeName}
+                      value={ext.extensionCode}
+                    >
+                      {ext.extensionCodeName}
+                    </option>
+                  );
                 }
-              })}
-            </select>
-          </div>
-        );
-      }
+              }
+              // }
+            )}
+          </select>
+        </div>
+      );
     }
   });
 
