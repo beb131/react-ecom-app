@@ -13,9 +13,16 @@ export default function Category(props) {
   const products = useContext(ProductContext);
   const productCats = useContext(ProductCatContext);
 
+  const categoryObj = categories.filter(category => {
+    return category.SubDir === `/category/${props.match.params.id}`;
+  });
+
+  const [thisCategory] = categoryObj;
+
+  console.log(thisCategory);
   const categoryList = categories.map(category => {
-    return category.CategoryLevel === props.location.state.CategoryLevel &&
-      category.ParentCategoryID === props.location.state.CategoryID ? (
+    return category.CategoryLevel === thisCategory.CategoryLevel + 1 &&
+      category.ParentCategoryID === thisCategory.CategoryID ? (
       <CategoryCard key={category.CategoryID} category={category} />
     ) : null;
   });
@@ -28,7 +35,7 @@ export default function Category(props) {
    ***/
   const relevantProducts = productCats
     .filter(product => {
-      return product.categoryID === props.location.state.CategoryID;
+      return product.categoryID === thisCategory.CategoryID;
     })
     .map(product => {
       return product.ItemID;

@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./index.scss";
 import Sidebar from "../Sidebar/index";
 import ProductInfo from "../ProductInfo/index";
 import ATCCard from "../ATC/ATCCard/index";
-
+import { ProductContext } from ".././../../../App";
 export default function ProductPage(props) {
-  const { product } = props.location.state;
+  const products = useContext(ProductContext);
+
+  const productObj = products.filter(
+    product => product.ProductURL === props.match.params.id
+  );
+
+  const [product] = productObj;
 
   return (
     <>
@@ -21,7 +27,6 @@ export default function ProductPage(props) {
             ItemName={product.ItemName}
             type={product.type}
             ItemID={product.ItemID}
-            extensions={product.extensions}
           />
         </div>
         <div id="product_ymal"></div>

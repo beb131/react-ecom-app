@@ -47,7 +47,8 @@ export default function ProductExtensions(props) {
       if (extension.ExtensionName === name) {
         val.push({
           extensionCodeName: extension.ExtensionCodeName,
-          extensionCode: extension.ExtensionCode
+          extensionCode: extension.ExtensionCode,
+          extensionOrder: extension.ExtensionOrder
         });
       }
     }
@@ -55,20 +56,33 @@ export default function ProductExtensions(props) {
 
   const extensionList = Object.keys(extensionObj).map(function(key, i) {
     const name = key.replace(/ /g, "_");
-    return (
-      <div className="select is-rounded" key={key}>
-        <select name={name} onChange={handleChange} value={state[name]}>
-          <option value={""}>{key}</option>
-          {extensionObj[key].map(ext => {
-            return (
-              <option key={ext.extensionCodeName} value={ext.extensionCode}>
-                {ext.extensionCodeName}
-              </option>
-            );
-          })}
-        </select>
-      </div>
-    );
+    console.log(key);
+    console.log(extensionObj);
+    for (let i = 1; i <= extensionObj.ExtensionOrder; i++) {
+      if (key.ExtensionOrder === i) {
+        return (
+          <div className="select is-rounded" key={key}>
+            <select name={name} onChange={handleChange} value={state[name]}>
+              <option value={""}>{key}</option>
+              {extensionObj[key].map(ext => {
+                for (let i = 1; i <= extensionObj[key].OptionOrder; i++) {
+                  if (ext.OptionOrder === i) {
+                    return (
+                      <option
+                        key={ext.extensionCodeName}
+                        value={ext.extensionCode}
+                      >
+                        {ext.extensionCodeName}
+                      </option>
+                    );
+                  }
+                }
+              })}
+            </select>
+          </div>
+        );
+      }
+    }
   });
 
   return (

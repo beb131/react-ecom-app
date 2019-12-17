@@ -28,12 +28,7 @@ export default function ProductCard(props) {
   return (
     <>
       <div className="card ">
-        <Link
-          to={{
-            pathname: `/products/${ProductURL}`,
-            state: { product: props.product }
-          }}
-        >
+        <Link to={`/products/${ProductURL}`}>
           <div className="card-image">
             <figure className="image is-4by3">
               <img src={Image} alt="Placeholder" />
