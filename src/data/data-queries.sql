@@ -14,9 +14,21 @@ ORDER BY categoryID, CategoryLevel, SortIndex ASC;
 
 -- Items
 -- AFTER GENERATING JSON
+-- Replace to fix Images
+-- Search:"Image": "
+-- Replace: "Image":"https://www.curatedbyjw.com/
 -- REGEX to add extensions object:
 -- Search: (("Extension1")(.*\n)+?)(\s+"RN")
 -- Replace: "extensions": {\n$1},\n$4 
+
+-- REGEX to split headline
+-- Search: "Description": "<headline>(.*)</headline><details>(.*)</details>",
+-- Replace: "Headline": "$1",\n    "Description": "$2",
+
+-- REGEX to trim Type field
+-- Search: Type": "(\w+)\s+",
+-- Replace: Type": "$1",
+
 DECLARE 
     @columns NVARCHAR(MAX) = '', 
     @sql     NVARCHAR(MAX) = '',
@@ -43,8 +55,8 @@ SET @null_cols = REPLACE(@columns, ',', ', NULL AS ');
 SET @sql ='
 SELECT 
     LTRIM(RTRIM(I.Name)) AS ItemName,
-    LTRIM(RTRIM(CAST(I.Descr AS VARCHAR(250)))) AS Description,
-    LTRIM(RTRIM(CAST(I.LongDescr AS VARCHAR(250)))) AS ItemDetails,
+    LTRIM(RTRIM(CAST(I.Descr AS VARCHAR(MAX)))) AS Description,
+    LTRIM(RTRIM(CAST(I.LongDescr AS VARCHAR(MAX)))) AS ItemDetails,
     Image,
     Type,
     LTRIM(RTRIM(I.Keywords)) AS Keywords,
@@ -69,8 +81,8 @@ SELECT *, ROW_NUMBER()
     FROM (
     SELECT 
         LTRIM(RTRIM(I.Name)) AS ItemName,
-        LTRIM(RTRIM(CAST(I.Descr AS VARCHAR(250)))) AS Description,
-        LTRIM(RTRIM(CAST(I.LongDescr AS VARCHAR(250)))) AS ItemDetails,
+        LTRIM(RTRIM(CAST(I.Descr AS VARCHAR(MAX)))) AS Description,
+        LTRIM(RTRIM(CAST(I.LongDescr AS VARCHAR(MAX)))) AS ItemDetails,
         Image,
         Type,
         LTRIM(RTRIM(I.Keywords)) AS Keywords,
@@ -157,6 +169,11 @@ WHERE iext.CatalogID = 'JW'
 ORDER BY iext.ItemID, ext.ExtensionGroupID, iext.sortIndex, ext.SortIndex ASC;
 
 -- Categories
+
+-- REGEX to split headline
+-- Search: "Description": "<headline>(.*)</headline><details>(.*)</details>",
+-- Replace: "Headline": "$1",\n    "Description": "$2",
+
 SELECT
 	LTRIM(RTRIM(CategoryID)) AS CategoryID,
 	LTRIM(RTRIM(CategoryName)) AS CategoryName,

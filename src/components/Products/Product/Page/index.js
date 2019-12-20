@@ -4,6 +4,7 @@ import Sidebar from "../Sidebar/index";
 import ProductInfo from "../ProductInfo/index";
 import ATCCard from "../ATC/ATCCard/index";
 import { ProductContext } from ".././../../../App";
+
 export default function ProductPage(props) {
   const products = useContext(ProductContext);
 
@@ -20,12 +21,16 @@ export default function ProductPage(props) {
           <Sidebar />
         </div>
         <div id="product_info">
-          <ProductInfo product={product} />
+          <ProductInfo
+            Description={product.Description}
+            ItemDetails={product.ItemID}
+            Image={product.Image}
+          />
         </div>
         <div id="product_atc">
           <ATCCard
             ItemName={product.ItemName}
-            type={product.type}
+            Type={product.Type}
             ItemID={product.ItemID}
           />
         </div>

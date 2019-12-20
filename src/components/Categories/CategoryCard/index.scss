@@ -5,8 +5,14 @@
   float: left;
   max-width: 32%;
   margin: 1%;
+  .title {
+    min-height: 55px;
+  }
   .content {
     text-align: left;
+    .excerpt {
+      min-height: 50px;
+    }
     .button {
       float: right;
       margin: 20px 10px;

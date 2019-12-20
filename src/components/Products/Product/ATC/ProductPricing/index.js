@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import "./index.scss";
 import { InventoryContext } from "../../../../../App";
+import PropTypes from "prop-types";
 
 export default function ProductPricing(props) {
   const { ItemID, InvtID } = props;
@@ -56,3 +57,8 @@ export default function ProductPricing(props) {
     </>
   );
 }
+
+ProductPricing.propTypes = {
+  ItemID: PropTypes.string.isRequired,
+  InvtID: PropTypes.string.isRequired
+};

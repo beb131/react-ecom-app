@@ -1,29 +1,10 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./index.scss";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 export default function ProductCard(props) {
-  const {
-    // invtID,
-    ItemName,
-    Description,
-    ItemDetails,
-    Image,
-    Type,
-    Keywords,
-    MetaDescription,
-    ProductURL,
-    ItemID
-    // USD_ListPrice,
-    // USD_Price,
-    // stkItem,
-    // qtyAvail
-  } = props.product;
-
-  const handleClick = (product, e) => {
-    e.target.innerHTML = "Added To Cart - $20.00";
-    props.handleAddToCart(product);
-  };
+  const { ItemName, Headline, Image, ProductURL } = props.product;
 
   return (
     <>
@@ -44,19 +25,17 @@ export default function ProductCard(props) {
             </div>
           </div>
           <div className="content">
-            {/* <div className="excerpt">{Description}</div> */}
-            {/* <div className="quan">
-              <input type="number" name="quantity" min="1" max="5" value="1" />
-            </div> */}
-            {/* <button
-              className="button is-link"
-              onClick={handleClick.bind(this, props.product)}
-            >
-              Add To Cart - ${Number(USD_Price).toFixed(2)}
-            </button> */}
+            <div className="excerpt">{Headline}</div>
+            <Link to={`/products/${ProductURL}`}>
+              <button className="button is-link">Shop Now</button>
+            </Link>
           </div>
         </div>
       </div>
     </>
   );
 }
+
+ProductCard.propTypes = {
+  product: PropTypes.object.isRequired
+};
