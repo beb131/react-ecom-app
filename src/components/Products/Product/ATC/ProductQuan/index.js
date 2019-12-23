@@ -37,6 +37,7 @@ export default function ProductQuan(props) {
           type="number"
           name="quantity"
           min="1"
+          max="999"
           step="1"
           value={quan}
           onChange={handleQuanUpdate}

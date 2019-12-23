@@ -50,6 +50,7 @@ export default function CartItem(props) {
                 type="number"
                 name="quantity"
                 min="1"
+                max="999"
                 step="1"
                 value={newQuan}
                 onChange={onQuanUpdate}
