@@ -1,4 +1,8 @@
 .card.atc {
   width: 96% !important;
   margin: 2% !important;
+  .content{
+    width: 100%;
+    display: inline-block;
+  }
 }

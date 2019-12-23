@@ -10,20 +10,37 @@ export default function ProductQuan(props) {
   };
 
   const handleQuanUpdate = e => {
-    console.log(e);
-    setQuan(e.target.value);
+    setQuan(parseInt(e.target.value));
   };
+
+  const formatInput = e => {
+    // Prevent characters that are not numbers ("e", ".", "+" & "-") ✨
+    let checkIfNum;
+    if (e.key !== undefined) {
+      checkIfNum =
+        e.key === "e" || e.key === "." || e.key === "+" || e.key === "-";
+    } else if (e.keyCode !== undefined) {
+      // Check if it's a "e" (69), "." (190), "+" (187) or "-" (189)
+      checkIfNum =
+        e.keyCode === 69 ||
+        e.keyCode === 190 ||
+        e.keyCode === 187 ||
+        e.keyCode === 189;
+    }
+    return checkIfNum && e.preventDefault();
+  };
+
   return (
     <>
-      <div className="quan">
+      <div id="quan">
         <input
           type="number"
           name="quantity"
           min="1"
-          max="5"
           step="1"
-          value={props.state.quan}
+          value={quan}
           onChange={handleQuanUpdate}
+          onKeyDown={formatInput}
         />
       </div>
     </>

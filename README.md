@@ -16,7 +16,7 @@
 - <s>Setup Hooks</s>
 - <s>Setup Routing</s>
 - <s>Create single product page</s>
-- Create Quantity Selector
+- <s>Create Quantity Selector</s>
 - <s>Allow for Item Extensions</s>
 - Add Description and Product Info
 - Create ATC Confirmation Modal
@@ -25,13 +25,13 @@
   - Price/Quantity/Item Review
 - <s>Replace Product Card with Category Card</s>
   - Link to category unless there is only one product in category
-- Format Cart
-  - Quantity Update
-  - Add Subtotal
-  - Checkout Button
+- <s>Format Cart</s>
+  - <s>Quantity Update</s>
+  - <s>Add Subtotal</s>
+  - <s>Checkout Button</s>
 - Setup Search Feature
 - Create Tests
-- Implement Proptypes
+- <s>Implement Proptypes</s>
 - Implement Suspense
 - Create and Connect Backend and DB
 - Implement GraphQL

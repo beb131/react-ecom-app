@@ -1,10 +1,17 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import "./index.scss";
 import { InventoryContext } from "../../../../../App";
 import PropTypes from "prop-types";
 
 export default function ProductPricing(props) {
   const { ItemID, InvtID } = props;
+  const {
+    price: [price, setPrice]
+  } = {
+    price: useState(""),
+    ...(props.state || {})
+  };
+
   const InvtIDs = useContext(InventoryContext);
 
   const thisInvtItem = InvtIDs.filter(item => {
@@ -35,25 +42,35 @@ export default function ProductPricing(props) {
     thisItem[0].USD_Price
   );
 
+  if (thisInvtItem[0]) {
+    setPrice(thisInvtItem[0].USD_Price);
+  } else {
+    setPrice(0);
+  }
+
   return (
     <>
-      {thisInvtItem[0] ? (
-        <div>
-          <div>
-            <del>{`$${thisInvtItem[0].USD_ListPrice.toFixed(2)}`}</del>
-          </div>
-          <div>{`$${thisInvtItem[0].USD_Price.toFixed(2)}`}</div>
-        </div>
-      ) : (
-        <div>
-          <div>
-            <del>{`$${getMinListPrice.toFixed(2)} - $${getMaxListPrice.toFixed(
+      <div id="price">
+        {thisInvtItem[0] ? (
+          <>
+            <div id="list_price">
+              <del>{`$${thisInvtItem[0].USD_ListPrice.toFixed(2)}`}</del>
+            </div>
+            <div id="item_price">{`$${price.toFixed(2)}`}</div>
+          </>
+        ) : (
+          <>
+            <div id="list_price_range">
+              <del>{`$${getMinListPrice.toFixed(
+                2
+              )} - $${getMaxListPrice.toFixed(2)}`}</del>
+            </div>
+            <div id="item_price_range">{`$${getMinPrice.toFixed(
               2
-            )}`}</del>
-          </div>
-          <div>{`$${getMinPrice.toFixed(2)} - $${getMaxPrice.toFixed(2)}`}</div>
-        </div>
-      )}
+            )} - $${getMaxPrice.toFixed(2)}`}</div>
+          </>
+        )}
+      </div>
     </>
   );
 }

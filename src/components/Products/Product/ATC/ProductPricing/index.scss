@@ -1,0 +1,11 @@
+#price {
+    width: 50%;
+    float: left;
+    #list_price,#list_price_range {
+        font-size:20px;
+    }
+    #item_price,#item_price_range {
+        font-size:20px;
+        font-weight:bold;
+    }
+}

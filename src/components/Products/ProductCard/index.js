@@ -8,7 +8,7 @@ export default function ProductCard(props) {
 
   return (
     <>
-      <div className="card ">
+      <div className="product card">
         <Link to={`/products/${ProductURL}`}>
           <div className="card-image">
             <figure className="image is-4by3">

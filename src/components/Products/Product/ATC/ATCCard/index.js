@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./index.scss";
 import ATCButton from "../ATCButton/index";
 import ProductExtensions from "../ProductExtensions/index";
@@ -11,7 +11,23 @@ export default function ATCCard(props) {
 
   const [InvtID, setInvtID] = useState(ItemID);
   const [quan, setQuan] = useState(1);
+  const [price, setPrice] = useState(0);
+  const [totalPrice, setTotalPrice] = useState(price);
+  const [finalItem, setItem] = useState({});
 
+  useEffect(() => {
+    setTotalPrice(price * quan);
+  }, [InvtID, quan, price]);
+
+  useEffect(() => {
+    setItem({
+      ItemName: ItemName,
+      InvtID: InvtID,
+      quan: quan,
+      price: price,
+      totalPrice: totalPrice
+    });
+  }, [ItemName, InvtID, quan, price, totalPrice]);
   return (
     <>
       <div className="atc card">
@@ -22,7 +38,11 @@ export default function ATCCard(props) {
             </div>
           </div>
           <div className="content">
-            <ProductPricing InvtID={InvtID} ItemID={ItemID} />
+            <ProductPricing
+              InvtID={InvtID}
+              ItemID={ItemID}
+              state={{ price: [price, setPrice] }}
+            />
             {Type === "PG" && (
               <ProductExtensions
                 ItemID={ItemID}
@@ -30,8 +50,8 @@ export default function ATCCard(props) {
               />
             )}
             <ProductQuan state={{ quan: [quan, setQuan] }} />
-            <ATCButton InvtID={InvtID} />
           </div>
+          <ATCButton product={finalItem} />
         </div>
       </div>
     </>

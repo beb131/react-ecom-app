@@ -16,14 +16,14 @@ export default function ProductPage(props) {
 
   return (
     <>
-      <section className="section" id="single_product">
+      <div id="single_product">
         <div id="product_sidebar">
           <Sidebar />
         </div>
         <div id="product_info">
           <ProductInfo
             Description={product.Description}
-            ItemDetails={product.ItemID}
+            ItemDetails={product.ItemDetails}
             Image={product.Image}
           />
         </div>
@@ -35,7 +35,7 @@ export default function ProductPage(props) {
           />
         </div>
         <div id="product_ymal"></div>
-      </section>
+      </div>
     </>
   );
 }

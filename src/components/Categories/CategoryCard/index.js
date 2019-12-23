@@ -7,7 +7,7 @@ export default function CategoryCard(props) {
 
   return (
     <>
-      <div className="card ">
+      <div className="category card">
         <Link to={SubDir}>
           <div className="card-image">
             <figure className="image is-4by3">

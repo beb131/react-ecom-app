@@ -1,21 +1,32 @@
 @import "../../../scss/variables.scss";
 
-.card {
+.category.card {
   width: 30%;
   float: left;
   max-width: 32%;
   margin: 1%;
   .title {
-    min-height: 55px;
+    font-size: 1.7rem;
+    min-height: 60px;
   }
   .content {
     text-align: left;
     .excerpt {
-      min-height: 50px;
+      font-size: 24px;
+      line-height: 1.1;
+      min-height: 55px;
     }
     .button {
       float: right;
       margin: 20px 10px;
     }
+  }
+}
+
+@media screen and (max-width:768px) {
+  .category.card {
+    width:98%;
+    max-width:100%;
+    margin: 20px auto;
   }
 }

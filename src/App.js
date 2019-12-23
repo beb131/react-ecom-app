@@ -37,16 +37,24 @@ function App() {
   const handleAddToCart = product => {
     dispatchCart({
       type: "ADD_TO_CART",
-      product: product
+      product
     });
   };
 
-  const handleRemoveFromCart = product => {
-    dispatchCart({ type: "REMOVE_FROM_CART", product: product });
+  const handleRemoveFromCart = InvtID => {
+    dispatchCart({ type: "REMOVE_FROM_CART", InvtID: InvtID });
   };
 
   const handleClearCart = () => {
     dispatchCart({ type: "CLEAR_CART" });
+  };
+
+  const handleQuanUpdate = (product, newQuan) => {
+    dispatchCart({
+      type: "QUAN_UPDATE",
+      product,
+      newQuan
+    });
   };
 
   return (
@@ -61,7 +69,8 @@ function App() {
                     cartProducts,
                     handleAddToCart,
                     handleRemoveFromCart,
-                    handleClearCart
+                    handleClearCart,
+                    handleQuanUpdate
                   }}
                 >
                   <Hero />

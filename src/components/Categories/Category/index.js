@@ -19,7 +19,6 @@ export default function Category(props) {
 
   const [thisCategory] = categoryObj;
 
-  console.log(thisCategory);
   const categoryList = categories.map(category => {
     return category.CategoryLevel === thisCategory.CategoryLevel + 1 &&
       category.ParentCategoryID === thisCategory.CategoryID ? (
